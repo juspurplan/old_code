@@ -1,0 +1,102 @@
+.quick_login {
+	float: right;
+	padding: 5px;
+	border: 5px solid #ccc;
+	margin: 0px;
+}
+
+.quick_login label {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.quick_login input[type="text"], .quick_login input[type="password"]  {
+	padding-right: 5px;
+	width: 100px;
+}
+
+.error {
+	display: block;
+	color: #f00;
+	margin: 0px;
+}
+
+.header h1 {
+	width: 300px;
+	height: 100px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	background: url('images/logo.png') no-repeat 0 0;
+}
+
+.tabs {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.tabs li {
+	display: inline;
+	border: solid;
+	border-width: 1px 1px 0 1px;
+	margin: 0 0.5em 0 0;
+}
+
+.tabs .selected {
+	border-bottom: 1px solid #fff;
+}
+
+.tabs li a {
+	padding: 0 1em;
+}
+
+.register input {
+	padding-right: 5px;
+}
+
+.content {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin-top: -1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content h1 {
+	margin: 0px;
+	padding-top: 5px;
+}
+
+.content .section {
+	padding: 5px;
+}
+
+.content #question {
+	width: 500px;
+	height: 250px;
+}
+
+.content .question {
+	padding: 5px;
+	margin: 5px;
+	background-color: #bbb;
+}
+
+.content .question a {
+	text-decoration: none;
+	color: #000;
+}
+
+.content .answer {
+	padding: 5px;
+	margin: 5px;
+	margin-left: 20px;
+	background-color: #ddd;
+}
+
+.content #answer {
+	width: 300px;
+	height: 50px;
+}
