@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">and2</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">and21</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">and3</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">and31</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">and4</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">and41</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">or2</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">or21</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">or3</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">or31</arg>&apos;
+</msg>
+
+</messages>
+

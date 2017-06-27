@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Feb 24 14:25:58 2015
+# Process ID: 10852
+# Log file: Z:/__SchoolWork/EE316_lab3a/planAhead_run_1/planAhead.log
+# Journal file: Z:/__SchoolWork/EE316_lab3a/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Z:/__SchoolWork/EE316_lab3a/pa.fromNetlist.tcl
+startgroup
+set_property package_pin J14 [get_ports A]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports B]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports C]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports D]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports E]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports W]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports X]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports Y]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports Z]
+endgroup
+save_constraints

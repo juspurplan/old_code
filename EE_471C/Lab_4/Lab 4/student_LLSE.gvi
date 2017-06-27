@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="3.0.0.49154" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Common Language Components" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/MocCommon" Version="3.0.0.49152" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="3.0.0.49152" />
+    </SourceModelFeatureSet>
+    <VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+        <Icon Id="66" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+            <IconPanel Height="[float]40" Id="67" Width="[float]40">
+                <IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="68" TemplateName="GrayNoText">
+                    <Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="69" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="70" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                </IconTemplate>
+                <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="71">
+                    <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="87" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                    <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Id="88" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                    <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Id="89" Left="[float]6" Text="[string]Student" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
+                    <Text Font="[SMFont]0,6," Id="90" Left="[float]8" Text="[string]MMSE" TextWrapping="[TextWrapping]NoWrap" Top="[float]14" />
+                    <Text Font="[SMFont]0,6," Foreground="[SMColor]#ff000000" Id="91" Left="[float]10" Text="[string]Ax=b" TextWrapping="[TextWrapping]NoWrap" Top="[float]23" />
+                </Canvas>
+            </IconPanel>
+        </Icon>
+        <ConnectorPane Height="40" Id="9" ListViewHeight="120" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+            <ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="17" />
+            <ConnectorPaneTerminal Hotspot="0 15" />
+            <ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 50" Parameter="23" />
+            <ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 95" Parameter="92" />
+            <ConnectorPaneTerminal Hotspot="15 0" />
+            <ConnectorPaneTerminal Hotspot="25 0" />
+            <ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="29" />
+            <ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 80" Parameter="32" />
+            <ConnectorPaneTerminal Hotspot="40 25" />
+            <ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 110" Parameter="103" />
+            <ConnectorPaneTerminal Hotspot="15 40" />
+            <ConnectorPaneTerminal Hotspot="25 40" />
+        </ConnectorPane>
+        <MethodDocumentation xmlns="http://www.ni.com/PlatformFramework" />
+        <DiagramUnplacedItems Id="10" />
+        <FrontPanelUnplacedItems Id="11" />
+        <BlockDiagram Id="12">
+            <DataAccessor Bounds="1925 805 40 15" DataItem="32" Id="33" Label="46">
+                <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <DataAccessor Bounds="1900 665 40 15" DataItem="29" Id="30" Label="45">
+                <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <DataAccessor Bounds="30 685 40 15" DataItem="17" Id="18" Label="43">
+                <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <DataAccessor Bounds="30 840 40 15" DataItem="23" Id="24" Label="44">
+                <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="33" Bounds="1970 805 98 16" Id="46" Text="mean square error" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="30" Bounds="1945 665 54 16" Id="45" Text="x.estimate" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="18" Bounds="17 685 8 16" Id="43" Text="A" xmlns="http://www.ni.com/PlatformFramework" />
+            <TextNode AttachedTo="24" Bounds="17 840 8 16" Id="44" Text="b" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="30 880 40 15" DataItem="92" Id="93" Label="102">
+                <Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="93" Bounds="-14 880 39 16" Id="102" Text="Error In" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="1905 860 40 15" DataItem="103" Id="104" Label="113">
+                <Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="104" Bounds="1950 860 49 16" Id="113" Text="Error Out" xmlns="http://www.ni.com/PlatformFramework" />
+            <ComplexConjugate Bounds="140 675 30 30" Id="130" />
+            <Wire Id="133" Joints="N(130:x - iy) h(30) v(-5) N(134:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+            <ComplexConjugateTransposeMatrix Bounds="205 680 50 50" Id="134" Target="Complex\ Conjugate\ Transpose\ Matrix\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L0" Desc="input matrix" />
+                        <Parameter Id="R0" Desc="matrix conjugate transpose" />
+                        <Parameter Id="R4" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexConjugateTransposeMatrix>
+            <Comment Bounds="255 655 33 28" Id="138" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>A*</p.Text>
+            </Comment>
+            <ComplexAxB Bounds="555 670 50 50" Id="159" Target="Complex\ A\ x\ B\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L1" Desc="A" />
+                        <Parameter Id="L3" Desc="B" />
+                        <Parameter Id="R1" Desc="A x B" />
+                        <Parameter Id="R3" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexAxB>
+            <Comment Bounds="595 640 54 28" Id="160" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>(A* A)</p.Text>
+            </Comment>
+            <Comment Bounds="150 440 227 28" Id="161" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>NOTE: A* is conjugate transpose of A</p.Text>
+            </Comment>
+            <Wire Id="177" Joints="N(159:R1) N(178:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+            <ComplexInverseMatrix Bounds="710 670 50 50" Id="178" Target="Complex\ Inverse\ Matrix\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L1" Desc="input matrix" />
+                        <Parameter Id="L3" Desc="matrix type" />
+                        <Parameter Id="R1" Desc="inverse matrix" />
+                        <Parameter Id="R3" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="@-1888508623_0" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexInverseMatrix>
+            <Comment Bounds="755 645 75 28" Id="179" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>(A* A)^-1</p.Text>
+            </Comment>
+            <ComplexAxB Bounds="955 545 50 50" Id="180" Target="Complex\ A\ x\ B\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L1" Desc="A" />
+                        <Parameter Id="L3" Desc="B" />
+                        <Parameter Id="R1" Desc="A x B" />
+                        <Parameter Id="R3" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[,]" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexAxB>
+            <Comment Bounds="960 515 113 28" Id="182" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>((A* A)^-1) (A*)</p.Text>
+            </Comment>
+            <Wire Id="184" Joints="N(24:Value) h(1008) B(1) h(432) v(-25) N(262:y) B(1) v(-115) N(185:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+            <ComplexAxVector Bounds="1085 695 50 50" Id="185" Target="Complex\ A\ x\ Vector\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L1" Desc="A" />
+                        <Parameter Id="L3" Desc="vector" />
+                        <Parameter Id="R1" Desc="A x vector" />
+                        <Parameter Id="R3" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexAxVector>
+            <Wire Id="186" Joints="N(180:R1) h(75) v(150) N(185:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="187" Joints="N(185:R1) h(125) B(1) h(635) v(-40) N(30:Value) B(1) v(115) N(260:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Comment Bounds="1095 640 152 42" Id="188" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>"multiply our matrix with\r\nour observed b matrix"</p.Text>
+            </Comment>
+            <PropertyNode Bounds="520 945 65 75" HasErrorTerminals="False" Id="195" InstanceDataType="Error" Template="List" Terminals="instance in=196~0:5, instance out=204~65:5, c0t0v=207~0:35, c1t0v=250~0:50, c2t0v=210~0:65" VerticalChunkCount="3">
+                <p.PropertyItem IsWrite="True">
+                    <PathElement>status</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="True">
+                    <PathElement>code</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="True">
+                    <PathElement>source</PathElement>
+                </p.PropertyItem>
+            </PropertyNode>
+            <Wire Id="196" Joints="N(93:Value) h(425) B(1) v(-10) h(643) v(15) N(198:t) B(1) v(65) N(195:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Select Bounds="1145 885 40 40" Id="198" />
+            <Wire Id="199" Joints="N(198:s? t:f) h(715) v(-40) N(104:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+            <IsEqualTo0 Bounds="945 890 30 30" Id="200" />
+            <Wire Id="202" Joints="N(200:x = 0?) N(198:s)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="204" Joints="N(195:instance out) h(35) v(35) h(520) v(-65) N(198:f)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Literal Bounds="445 975 26 15" DataType="Boolean" Facade="NationalInstruments.MocCommon.Modeling.IBooleanBehavior" Id="205" Label="206" xmlns="http://www.ni.com/MocCommon">
+                <p.Data>True</p.Data>
+                <BooleanBehavior />
+            </Literal>
+            <TextNode AttachedTo="205" Bounds="445 975 0 0" Id="206" Text="status" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="207" Joints="N(205:Out) N(195:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Literal Bounds="186 1005 249 15" DataType="String" Facade="NationalInstruments.MocCommon.Modeling.IStringBehavior" Id="208" Label="209" xmlns="http://www.ni.com/MocCommon">
+                <p.Data>Inverse Matrix error in student_LSSE.gvi</p.Data>
+                <StringBehavior />
+            </Literal>
+            <TextNode AttachedTo="208" Bounds="186 1005 0 0" Id="209" Text="source" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="210" Joints="N(208:Out) N(195:c2t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="226" Joints="N(134:R0) h(45) B(1) N(159:L1) B(1) v(-105) N(180:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="236" Joints="N(18:Value) h(35) B(1) N(130:x + iy) B(1) v(115) h(420) B(4) N(260:L1) B(4) v(-100) N(159:L3)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="250" Joints="N(178:R3) h(5) v(200) B(2) h(-250) v(90) N(195:c1t0v) B(2) N(200:x)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="257" Joints="N(178:R1) h(125) v(-125) N(180:L1)" xmlns="http://www.ni.com/PlatformFramework" />
+            <ComplexAxVector Bounds="1370 790 50 50" Id="260" Target="Complex\ A\ x\ Vector\.gvi">
+                <p.MethodDeclaration>
+                    <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                        <Parameter Id="L1" Desc="A" />
+                        <Parameter Id="L3" Desc="vector" />
+                        <Parameter Id="R1" Desc="A x vector" />
+                        <Parameter Id="R3" Desc="error" />
+                    </MethodDeclaration>
+                </p.MethodDeclaration>
+                <Terminal DataType="ComplexDouble[,]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="ComplexDouble[]" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                <Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+            </ComplexAxVector>
+            <Comment Bounds="1320 770 60 28" Id="261" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>A*x.est</p.Text>
+            </Comment>
+            <Subtract Bounds="1515 800 30 30" Id="262" />
+            <Wire Id="263" Joints="N(260:R1) N(262:x)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Comment Bounds="1525 770 45 28" Id="264" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>error</p.Text>
+            </Comment>
+            <Comment Bounds="1675 740 125 42" Id="280" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>"magnitude squared\r\nof error"</p.Text>
+            </Comment>
+            <Square Bounds="1685 805 30 30" Id="282" />
+            <AddArrayElements Bounds="1740 800 30 30" Id="284" />
+            <Wire Id="285" Joints="N(282:x^2) h(20) v(-5) N(284:numeric array)" xmlns="http://www.ni.com/PlatformFramework" />
+            <AbsoluteValue Bounds="1640 810 30 30" Id="291" />
+            <Wire Id="292" Joints="N(262:x-y) h(90) v(10) N(291:x)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="295" Joints="N(291:abs(x\)) h(10) v(-5) N(282:x)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="296" Joints="N(284:sum) h(5) v(-5) N(33:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+        </BlockDiagram>
+        <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000">
+            <ArrayViewer ArrayElement="[UIModel]16" BaseName="[string]Array" Columns="[int]6" Dimensions="[int]2" Height="[float]396" Id="19" Label="[UIModel]38" Left="[float]127" Orientation="[SMOrientation]Horizontal" Rows="[int]16" Top="[float]453" Value="{DataItemBinding Id=17}" Width="[float]484" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="16" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]266" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]7" Value="[ComplexDouble]0 + 0i" ValueType="[Type]ComplexDouble" Width="[float]69" />
+            </ArrayViewer>
+            <ArrayViewer ArrayElement="[UIModel]22" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]228" Id="25" Label="[UIModel]39" Left="[float]127" Orientation="[SMOrientation]Vertical" Rows="[int]9" Top="[float]150" Value="{DataItemBinding Id=23}" Width="[float]129" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="22" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]53" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]175" Value="[ComplexDouble]0 + 0i" ValueType="[Type]ComplexDouble" Width="[float]69" />
+            </ArrayViewer>
+            <ArrayViewer ArrayElement="[UIModel]28" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]300" Id="31" Label="[UIModel]40" Left="[float]870" Orientation="[SMOrientation]Vertical" Rows="[int]12" Top="[float]150" Value="{DataItemBinding Id=29}" Width="[float]114" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="28" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]271" Value="[ComplexDouble]0 + 0i" ValueType="[Type]ComplexDouble" Width="[float]54" />
+            </ArrayViewer>
+            <NumericText BaseName="[string]Numeric" Height="[float]22" Id="34" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]41" Left="[float]620" RadixVisibility="[SMVisibility]Collapsed" Top="[float]150" Value="{DataItemBinding Id=32}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]182" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="38" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]19" Left="[float]127" Locked="[bool]True" Text="[string]A" Top="[float]430" />
+            <Label Id="39" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]25" Left="[float]127" Locked="[bool]True" Text="[string]b" Top="[float]127" />
+            <Label Id="40" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]31" Left="[float]870" Locked="[bool]True" Text="[string]x.estimate" Top="[float]127" />
+            <Label Id="41" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]34" Left="[float]620" Locked="[bool]True" Text="[string]mean square error" Top="[float]127" />
+            <Cluster BaseName="[string]Error In" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="94" Label="[UIModel]101" Left="[float]846" Top="[float]621" Value="{DataItemBinding Id=92}" Width="[float]138">
+                <LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="95" Label="[UIModel]96" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="96" LabelOwner="[UIModel]95" Left="[float]5" Locked="[bool]True" Text="[string]status" Top="[float]5" />
+                <NumericText Height="[float]22" Id="97" Label="[UIModel]98" Left="[float]50" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="98" LabelOwner="[UIModel]97" Left="[float]50" Locked="[bool]True" Text="[string]code" Top="[float]5" />
+                <StringControl AcceptsReturn="[bool]True" Height="[float]80" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="99" IsReadOnly="[bool]False" Label="[UIModel]100" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="100" LabelOwner="[UIModel]99" Left="[float]5" Locked="[bool]True" Text="[string]source" Top="[float]52" />
+            </Cluster>
+            <Label Id="101" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]94" Left="[float]846" Locked="[bool]True" Text="[string]Error In" Top="[float]598" />
+            <Cluster BaseName="[string]Error Out" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="105" Label="[UIModel]112" Left="[float]1008" Top="[float]621" Value="{DataItemBinding Id=103}" Width="[float]138">
+                <LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="106" IsReadOnly="[bool]True" Label="[UIModel]107" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="107" LabelOwner="[UIModel]106" Left="[float]5" Locked="[bool]True" Text="[string]status" Top="[float]5" />
+                <NumericText Height="[float]22" Id="108" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]109" Left="[float]50" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="109" LabelOwner="[UIModel]108" Left="[float]50" Locked="[bool]True" Text="[string]code" Top="[float]5" />
+                <StringControl AcceptsReturn="[bool]True" Height="[float]80" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="110" IsReadOnly="[bool]True" Label="[UIModel]111" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="111" LabelOwner="[UIModel]110" Left="[float]5" Locked="[bool]True" Text="[string]source" Top="[float]52" />
+            </Cluster>
+            <Label Id="112" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]105" Left="[float]1008" Locked="[bool]True" Text="[string]Error Out" Top="[float]598" />
+        </CPFrontPanel>
+        <DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="ComplexDouble[,]" Id="17" Name="A" />
+        <DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="2" DataType="ComplexDouble[]" Id="23" Name="b" />
+        <DataItem CallDirection="Output" CallIndex="1" DataType="ComplexDouble[]" Id="29" Name="x.estimate" />
+        <DataItem CallDirection="Output" CallIndex="2" DataType="Double" Id="32" Name="mean square error">
+            <p.DefaultValue>0x0</p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Input" CallIndex="0" DataType="Error" Id="92" Name="Error In">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>False</Field1>
+                    <Field2>0</Field2>
+                    <Field3>""</Field3>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Output" CallIndex="0" DataType="Error" Id="103" Name="Error Out">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>False</Field1>
+                    <Field2>0</Field2>
+                    <Field3>""</Field3>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+            <p.TypeReference TypeId="-1888508623_0">
+                <Enumeration Name="">
+                    <Members>
+                        <EnumerationMember Value="0" Name="General" />
+                        <EnumerationMember Value="1" Name="Positive Definite" />
+                        <EnumerationMember Value="2" Name="Lower Triangular" />
+                        <EnumerationMember Value="3" Name="Upper Triangular" />
+                    </Members>
+                    <DataType>
+                        <UInt32 />
+                    </DataType>
+                </Enumeration>
+            </p.TypeReference>
+        </DataTypeReferenceTable>
+    </VirtualInstrument>
+</SourceFile>

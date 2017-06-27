@@ -1,0 +1,15 @@
+V3 16
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" 2004/05/03.10:31:46 P.20131013
+AR work/Complementer/behavior 1429629029 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN work/Complementer 1429629028
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_manual.vhd" 2015/04/21.10:29:20 P.20131013
+EN work/lab5_manual 1429643821 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_manual.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 LB SimUAid_synthesis_Package \
+      PB SimUAid_Synthesis_Package/SimUAid_synthesis_pack 1429643744
+AR work/lab5_manual/Structure 1429643822 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_manual.vhd" \
+      EN work/lab5_manual 1429643821 CP Dflipflop CP inverter CP or2 CP and3 CP or3 \
+      CP and2 CP and4

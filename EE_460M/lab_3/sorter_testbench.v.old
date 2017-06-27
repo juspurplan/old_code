@@ -1,0 +1,77 @@
+
+module sorter_testbench ();
+
+	reg c, r; //clock, and reset input
+	reg [11:0] w; // weight input
+	
+	wire [7:0] g1, g2, g3, g4, g5, g6; // group outputs
+	wire [2:0] cg; // current_group output
+	
+	
+	initial begin
+		c = 1;
+		r = 0;
+		w = 0;
+	end
+	
+	// generate clock
+	// clock period = 10 ns
+	// 1 at 0ns, 0 at 5 ns, 1 at 10ns ...
+	// registers clock on falling edges (5ns, 15ns, 25 ns ...)
+	// write inputs at (0ns, 10ns, 20ns, 30ns ...)
+	always begin
+		#5 c = ~c;
+	end
+	
+	sorter sort0 (
+		.weight			(w),
+		.clock			(c),
+		.reset			(r),
+		.group1			(g1),
+		.group2			(g2),	
+		.group3			(g3),
+		.group4			(g4),
+		.group5			(g5),
+		.group6			(g6),
+		.current_group	(cg)
+	);
+	
+	//test cases
+	initial begin
+		$dumpfile("sorter_testbench_sim.vcd");
+		$dumpon;
+		$dumpvars(1, g1, g2, g3, g4, g5, g6, cg, w, r, c);
+	
+		// reset
+		#3 r = 1;
+		#7 r = 0;
+		
+		
+		$display("g1\t g2\t g3\t g4\t g5\t g6\t cg");
+		$display("%d\t %d\t %d\t %d\t %d\t %d\t %d", g1, g2, g3, g4, g5, g6, cg);
+		
+		#121 w = 12'd 250;		// put on
+		#150 w = 12'd 0;		// take off
+		
+		$display("g1\t g2\t g3\t g4\t g5\t g6\t cg");
+		$display("%d\t %d\t %d\t %d\t %d\t %d\t %d", g1, g2, g3, g4, g5, g6, cg);
+		
+		#173 w = 12'd 300;
+		#202 w = 12'd 0;
+		
+		$display("g1\t g2\t g3\t g4\t g5\t g6\t cg");
+		$display("%d\t %d\t %d\t %d\t %d\t %d\t %d", g1, g2, g3, g4, g5, g6, cg);
+		
+		#234 w = 12'd 501;		// put on 501
+		#240 w = 12'd 1013;  	// don't take off.. add more to it.
+		
+		
+		$display("g1\t g2\t g3\t g4\t g5\t g6\t cg");
+		$display("%d\t %d\t %d\t %d\t %d\t %d\t %d", g1, g2, g3, g4, g5, g6, cg);
+
+		#999 $dumpflush;
+		#1000 $stop;
+		
+	end
+	
+endmodule

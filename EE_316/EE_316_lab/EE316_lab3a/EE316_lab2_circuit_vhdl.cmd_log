@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EE316_lab2_circuit_vhdl.ucf -p xc3s200-ft256-5 EE316_lab2_circuit_vhdl.ngc EE316_lab2_circuit_vhdl.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ngd EE316_lab2_circuit_vhdl.pcf 
+par -w -intstyle ise -ol high -t 1 EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ncd EE316_lab2_circuit_vhdl.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EE316_lab2_circuit_vhdl.twx EE316_lab2_circuit_vhdl.ncd -o EE316_lab2_circuit_vhdl.twr EE316_lab2_circuit_vhdl.pcf -ucf EE316_lab2_circuit_vhdl.ucf 
+bitgen -intstyle ise -f EE316_lab2_circuit_vhdl.ut EE316_lab2_circuit_vhdl.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EE316_lab2_circuit_vhdl.ucf -p xc3s1000-ft256-5 EE316_lab2_circuit_vhdl.ngc EE316_lab2_circuit_vhdl.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ngd EE316_lab2_circuit_vhdl.pcf 
+par -w -intstyle ise -ol high -t 1 EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ncd EE316_lab2_circuit_vhdl.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EE316_lab2_circuit_vhdl.twx EE316_lab2_circuit_vhdl.ncd -o EE316_lab2_circuit_vhdl.twr EE316_lab2_circuit_vhdl.pcf -ucf EE316_lab2_circuit_vhdl.ucf 
+bitgen -intstyle ise -f EE316_lab2_circuit_vhdl.ut EE316_lab2_circuit_vhdl.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.xst" -ofn "Z:/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc EE316_lab2_circuit_vhdl.ucf -p xc3s1000-ft256-5 EE316_lab2_circuit_vhdl.ngc EE316_lab2_circuit_vhdl.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ngd EE316_lab2_circuit_vhdl.pcf 
+par -w -intstyle ise -ol high -t 1 EE316_lab2_circuit_vhdl_map.ncd EE316_lab2_circuit_vhdl.ncd EE316_lab2_circuit_vhdl.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml EE316_lab2_circuit_vhdl.twx EE316_lab2_circuit_vhdl.ncd -o EE316_lab2_circuit_vhdl.twr EE316_lab2_circuit_vhdl.pcf -ucf EE316_lab2_circuit_vhdl.ucf 
+bitgen -intstyle ise -f EE316_lab2_circuit_vhdl.ut EE316_lab2_circuit_vhdl.ncd 

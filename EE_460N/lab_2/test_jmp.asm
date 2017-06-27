@@ -1,0 +1,17 @@
+.ORIG #1000
+
+LEA R0, j1
+ADD R5, R0, #2
+JMP R5
+
+j1  ADD R1, R1, #1
+j2	ADD R1, R1, #2
+j3  ADD R1, R1, #3 
+j4  ADD R1, R1, #4
+j5 ADD R1, R1, #5
+
+LEA R2, res
+STW R1, R2, #0
+
+res .FILL x0000
+.END

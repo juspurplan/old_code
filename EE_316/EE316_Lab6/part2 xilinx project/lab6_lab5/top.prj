@@ -1,0 +1,2 @@
+vhdl work "../Lab6_lab5behavioral.vhd"
+vhdl work "../Testbench_modified.vhd"

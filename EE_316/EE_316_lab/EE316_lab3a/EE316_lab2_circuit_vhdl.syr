@@ -1,0 +1,467 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: EE316_lab2_circuit_vhdl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "EE316_lab2_circuit_vhdl.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "EE316_lab2_circuit_vhdl"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : EE316_lab2_circuit_vhdl
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/SimUAid_synthesis_pack is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/SimUAid_synthesis_pack is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and3 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and3/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and4 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and4/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and5 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/and5/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or3 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or3/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or4 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or4/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or5 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/or5/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand3 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand3/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand4 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand4/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand5 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nand5/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor3 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor3/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor4 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor4/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor5 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nor5/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/xor2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/xor2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/xnor2 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/xnor2/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/inverter is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/inverter/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Dflipflop is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Dflipflop/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/JKflipflop is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/JKflipflop/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Counter is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Counter/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/LoadableCounter is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/LoadableCounter/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nbitRegister is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/nbitRegister/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NBitAdder is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NBitAdder/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NWideMux is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NWideMux/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegLS is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegLS/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegRS is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegRS/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegBidir is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/ShiftRegBidir/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NBitTristate is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/NBitTristate/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Complementer is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Complementer/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/FullAdder is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/FullAdder/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Decoder_2_to_4 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Decoder_2_to_4/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Decoder_3_to_8 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Decoder_3_to_8/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_2_to_1 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_2_to_1/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_4_to_1 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_4_to_1/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_8_to_1 is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/MUX_8_to_1/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Tristatebuf is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+WARNING:HDLParsers:3607 - Unit SimUAid_Synthesis_Package/Tristatebuf/behavior is now defined in a different file.  It was defined in "C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd", and is now defined in "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Compiling vhdl file "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd" in Library SimUAid_Synthesis_Package.
+Architecture simuaid_synthesis_pack of Entity simuaid_synthesis_pack is up to date.
+Architecture behavior of Entity and2 is up to date.
+Architecture behavior of Entity and3 is up to date.
+Architecture behavior of Entity and4 is up to date.
+Architecture behavior of Entity and5 is up to date.
+Architecture behavior of Entity or2 is up to date.
+Architecture behavior of Entity or3 is up to date.
+Architecture behavior of Entity or4 is up to date.
+Architecture behavior of Entity or5 is up to date.
+Architecture behavior of Entity nand2 is up to date.
+Architecture behavior of Entity nand3 is up to date.
+Architecture behavior of Entity nand4 is up to date.
+Architecture behavior of Entity nand5 is up to date.
+Architecture behavior of Entity nor2 is up to date.
+Architecture behavior of Entity nor3 is up to date.
+Architecture behavior of Entity nor4 is up to date.
+Architecture behavior of Entity nor5 is up to date.
+Architecture behavior of Entity xor2 is up to date.
+Architecture behavior of Entity xnor2 is up to date.
+Architecture behavior of Entity inverter is up to date.
+Architecture behavior of Entity dflipflop is up to date.
+Architecture behavior of Entity jkflipflop is up to date.
+Architecture behavior of Entity counter is up to date.
+Architecture behavior of Entity loadablecounter is up to date.
+Architecture behavior of Entity nbitregister is up to date.
+Architecture behavior of Entity nbitadder is up to date.
+Architecture behavior of Entity nwidemux is up to date.
+Architecture behavior of Entity shiftregls is up to date.
+Architecture behavior of Entity shiftregrs is up to date.
+Architecture behavior of Entity shiftregbidir is up to date.
+Architecture behavior of Entity nbittristate is up to date.
+Architecture behavior of Entity complementer is up to date.
+Architecture behavior of Entity fulladder is up to date.
+Architecture behavior of Entity decoder_2_to_4 is up to date.
+Architecture behavior of Entity decoder_3_to_8 is up to date.
+Architecture behavior of Entity mux_2_to_1 is up to date.
+Architecture behavior of Entity mux_4_to_1 is up to date.
+Architecture behavior of Entity mux_8_to_1 is up to date.
+Architecture behavior of Entity tristatebuf is up to date.
+Compiling vhdl file "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.vhd" in Library work.
+Architecture structure of Entity ee316_lab2_circuit_vhdl is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <EE316_lab2_circuit_vhdl> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <inverter> in library <SimUAid_Synthesis_Package> (architecture <behavior>).
+
+Analyzing hierarchy for entity <nor3> in library <SimUAid_Synthesis_Package> (architecture <behavior>).
+
+Analyzing hierarchy for entity <nor4> in library <SimUAid_Synthesis_Package> (architecture <behavior>).
+
+Analyzing hierarchy for entity <nor5> in library <SimUAid_Synthesis_Package> (architecture <behavior>).
+
+Analyzing hierarchy for entity <nor2> in library <SimUAid_Synthesis_Package> (architecture <behavior>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <EE316_lab2_circuit_vhdl> in library <work> (Architecture <structure>).
+Entity <EE316_lab2_circuit_vhdl> analyzed. Unit <EE316_lab2_circuit_vhdl> generated.
+
+Analyzing Entity <inverter> in library <SimUAid_Synthesis_Package> (Architecture <behavior>).
+Entity <inverter> analyzed. Unit <inverter> generated.
+
+Analyzing Entity <nor3> in library <SimUAid_Synthesis_Package> (Architecture <behavior>).
+Entity <nor3> analyzed. Unit <nor3> generated.
+
+Analyzing Entity <nor4> in library <SimUAid_Synthesis_Package> (Architecture <behavior>).
+Entity <nor4> analyzed. Unit <nor4> generated.
+
+Analyzing Entity <nor5> in library <SimUAid_Synthesis_Package> (Architecture <behavior>).
+Entity <nor5> analyzed. Unit <nor5> generated.
+
+Analyzing Entity <nor2> in library <SimUAid_Synthesis_Package> (Architecture <behavior>).
+Entity <nor2> analyzed. Unit <nor2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <inverter>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Unit <inverter> synthesized.
+
+
+Synthesizing Unit <nor3>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Unit <nor3> synthesized.
+
+
+Synthesizing Unit <nor4>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Unit <nor4> synthesized.
+
+
+Synthesizing Unit <nor5>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Unit <nor5> synthesized.
+
+
+Synthesizing Unit <nor2>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd".
+Unit <nor2> synthesized.
+
+
+Synthesizing Unit <EE316_lab2_circuit_vhdl>.
+    Related source file is "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/EE316_lab2_circuit_vhdl.vhd".
+WARNING:Xst:1780 - Signal <Vnet_22> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_21> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_20> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_19> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_18> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_17> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_16> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Vnet_13> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <EE316_lab2_circuit_vhdl> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:79 - Model 'nor2' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'nor21'
+WARNING:Xst:79 - Model 'nor3' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'nor31'
+WARNING:Xst:79 - Model 'nor4' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'nor41'
+WARNING:Xst:79 - Model 'nor5' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'nor51'
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <EE316_lab2_circuit_vhdl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block EE316_lab2_circuit_vhdl, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : EE316_lab2_circuit_vhdl.ngr
+Top Level Output File Name         : EE316_lab2_circuit_vhdl
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 12
+#      LUT3                        : 2
+#      LUT4                        : 6
+#      MUXF5                       : 4
+# IO Buffers                       : 9
+#      IBUF                        : 5
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                        4  out of   7680     0%  
+ Number of 4 input LUTs:                  8  out of  15360     0%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    173     5%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.299ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 34 / 4
+-------------------------------------------------------------------------
+Delay:               8.299ns (Levels of Logic = 4)
+  Source:            E (PAD)
+  Destination:       W (PAD)
+
+  Data Path: E to W
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.715   1.201  E_IBUF (E_IBUF)
+     LUT4:I0->O            1   0.479   0.000  VHDL_Device_15/E_F (N22)
+     MUXF5:I0->O           1   0.314   0.681  VHDL_Device_15/E (W_OBUF)
+     OBUF:I->O                 4.909          W_OBUF (W)
+    ----------------------------------------
+    Total                      8.299ns (6.417ns logic, 1.882ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.52 secs
+ 
+--> 
+
+Total memory usage is 257644 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   94 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

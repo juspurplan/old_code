@@ -1,0 +1,21 @@
+V3 17
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5O_auto/lab5_auto.vhd" 2015/04/21.14:41:12 P.20131013
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_auto.vhd" 2015/04/21.14:41:12 P.20131013
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_testbench.vhd" 2015/04/27.13:39:49 P.20131013
+EN work/SM 1430160783 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_testbench.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 LB SimUAid_synthesis_Package \
+      PB SimUAid_Synthesis_Package/SimUAid_synthesis_pack 1430160706
+AR work/SM/Structure 1430160784 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/lab5_testbench.vhd" \
+      EN work/SM 1430160783 CP Dflipflop CP inverter CP or2 CP and3 CP or3 CP and2 \
+      CP and4
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Testbench_modified.vhd" 2015/04/21.14:31:16 P.20131013
+EN work/top 1430160785 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Testbench_modified.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/top/Behavioral 1430160786 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Testbench_modified.vhd" \
+      EN work/top 1430160785 CP SM

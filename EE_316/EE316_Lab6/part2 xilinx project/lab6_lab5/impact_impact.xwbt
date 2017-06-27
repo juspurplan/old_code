@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5\impact.xsl
+OUTFILE=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5
+LICENSE=iMPACT
+USER_INFO=iMPACT

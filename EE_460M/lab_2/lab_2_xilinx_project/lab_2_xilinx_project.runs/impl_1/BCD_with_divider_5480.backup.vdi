@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Feb 11 13:36:04 2016
+# Process ID: 5860
+# Log file: Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.runs/impl_1/BCD_with_divider.vdi
+# Journal file: Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source BCD_with_divider.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.4
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'q[2]'. [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this comm     and returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'q[3]'. [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this comm     and returns at least one valid object.
+Finished Parsing XDC File [Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.srcs/constrs_1/imports/lab_2/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 443.504 ; gain = 252.113
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2015.03' and will expire in -317 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.139 . Memory (MB): peak = 445.645 ; gain = 0.246
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: e42217f8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 926.281 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 31 cells.
+Phase 2 Constant Propagation | Checksum: 12258d030
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 926.281 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 75 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 166d1494f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 926.281 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 166d1494f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 926.281 ; gain = 0.000
+Implement Debug Cores | Checksum: e42217f8
+Logic Optimization | Checksum: e42217f8
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+Ending Power Optimization Task | Checksum: 166d1494f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 926.281 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 926.281 ; gain = 482.777
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.413 . Memory (MB): peak = 926.281 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+ERROR: [Place 30-743] IO/clock placer failed to collectively place all IOs and clock instances. This is likely due to design requirements or user constraints specified in the constraint file such as IO standards, bank/voltage/DCI/VREF specifications, together with the part and package being used for the implementation. Please check the above for any possible conflicts.
+INFO: [Coretcl 2-168] The results of DRC are in file Z:/__SchoolWork/EE_460M_lab/lab_2/lab_2_xilinx_project/lab_2_xilinx_project.runs/impl_1/BCD_with_divider_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2015.03' and will expire in -317 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+ERROR: [Place 30-743] IO/clock placer failed to collectively place all IOs and clock instances. This is likely due to design requirements or user constraints specified in the constraint file such as IO standards, bank/voltage/DCI/VREF specifications, together with the part and package being used for the implementation. Please check the above for any possible conflicts.
+ERROR: [Drc 23-20] Rule violation (BIVC-1) Bank IO standard Vcc - Conflicting Vcc voltages in bank 14. For example, the following two ports in this bank have conflicting VCCOs:  
+Q[3] (LVCMOS18, requiring VCCO=1.800) and Q[0] (LVCMOS33, requiring VCCO=3.300)
+INFO: [Vivado_Tcl 4-198] DRC finished with 1 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+INFO: [Common 17-83] Releasing license: Implementation
+35 Infos, 2 Warnings, 2 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+    while executing
+"place_design "
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 11 13:36:42 2016...

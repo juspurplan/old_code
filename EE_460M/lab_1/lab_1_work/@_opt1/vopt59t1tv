@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_hdllab\lab_1
+T_opt
+V?D<D4]T=9VPX>cJAbafin3
+Z1 04 3 4 work ALU fast 0
+=1-0023ae923404-56b2b7be-78-1fd0
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OL;O;10.1;51
+Z4 dZ:\__SchoolWork\EE_460M_hdllab\lab_1
+T_opt1
+VjS_7WMdM3AIki3Bm0>Qzo1
+R1
+=1-0023ae923457-56bcf36c-3c3-d40
+R2
+n@_opt1
+R3
+T_opt2
+VLTAF^B29IL5V0P7<]k7A>2
+04 12 4 work subtract4bit fast 0
+=2-0023ae923404-56b2a715-2a8-1ab0
+R2
+n@_opt2
+R3
+R4
+vALU
+I0k<nRIeE?G<OMGaL4VaZg0
+Vb5DEKFc0mY<Z[k=fWje_o3
+dZ:\__SchoolWork\EE_460M_lab\lab_1
+w1454553000
+8ALU.v
+FALU.v
+L0 2
+Z5 OL;L;10.1;51
+r1
+31
+Z6 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!s100 742JGK<[kFOTF_okU[m_40
+!s90 -reportprogress|300|ALU.v|
+!i10b 1
+!s85 0
+!s108 1455223657.289000
+!s107 ALU.v|
+vsubtract1bit
+I2:N4F76h3kolV0184?Q^=3
+V9oI6?3e1??^FSHA=Rozn<2
+R4
+w1454547949
+8subtract1bit.v
+Fsubtract1bit.v
+L0 3
+R5
+r1
+31
+R6
+!s100 eU4G;=GTzjAdegWXbdAT[0
+!s90 -reportprogress|300|subtract1bit.v|
+!s108 1454553561.196000
+!s107 subtract1bit.v|
+!i10b 1
+!s85 0
+vsubtract4bit
+I13fUkDB87VijOROdSFeNA3
+V=`:0:g::8M=g:>KNVW]JK0
+R4
+w1454548748
+8subtract4bit.v
+Fsubtract4bit.v
+L0 3
+R5
+r1
+31
+R6
+!s100 oh1[k`dHOOMhT2f4h0:^H3
+!s90 -reportprogress|300|subtract4bit.v|
+!s108 1454553561.513000
+!s107 subtract4bit.v|
+!i10b 1
+!s85 0

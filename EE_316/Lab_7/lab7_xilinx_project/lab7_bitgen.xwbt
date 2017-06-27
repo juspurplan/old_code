@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\__SchoolWork\lab7\lab7_xilinx_project\lab7.ncd
+OUTFILE=Z:\__SchoolWork\lab7\lab7_xilinx_project\lab7.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=Z:\__SchoolWork\lab7\lab7_xilinx_project
+LICENSE=ISE
+USER_INFO=210777625_1777494353_210565950_607

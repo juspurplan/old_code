@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_lab\lab_5_part_B
+vDivider
+Z1 !s100 R1fkoaT2lRUi>DVI?D=zX3
+Z2 I5f;>azOmMUNQog[QT?U?D0
+Z3 VfRIgnF_ji2hM8OhAjEN`I1
+Z4 dZ:\__SchoolWork\EE_460M_lab\lab_5_part_B
+Z5 w1457001885
+Z6 8Divider.v
+Z7 FDivider.v
+L0 4
+Z8 OL;L;10.1;51
+r1
+31
+Z9 !s90 -reportprogress|300|-novopt|Divider.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 n@divider
+Z12 !s108 1459378580.625000
+Z13 !s107 Divider.v|
+!i10b 1
+!s85 0
+vPartB
+!i10b 1
+Z14 !s100 TC8]4=kfe8o5M9RZ1m@YF1
+Z15 Ibjd3:zj:17j2h=Hc6UVPP3
+Z16 VIiNk:Ol=;oKfA64VE6Z992
+R4
+Z17 w1459377743
+Z18 8PartB.v
+Z19 FPartB.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1459378581.101000
+!s107 PartB.v|
+Z20 !s90 -reportprogress|300|-novopt|PartB.v|
+R10
+Z21 n@part@b
+vVGADisplayController
+Z22 I@jXOJ^]Q6O780f]YgR6k<3
+Z23 V3ml0QZO=[5PWWi7d8a>1X1
+R4
+Z24 w1459378548
+Z25 8VGADisplayController.v
+Z26 FVGADisplayController.v
+L0 2
+R8
+r1
+31
+Z27 !s90 -reportprogress|300|-novopt|VGADisplayController.v|
+R10
+Z28 n@v@g@a@display@controller
+!i10b 1
+Z29 !s100 Zz5ZGo1[4mUe<PR:407B21
+!s85 0
+Z30 !s108 1459378580.838000
+Z31 !s107 VGADisplayController.v|

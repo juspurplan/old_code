@@ -1,0 +1,14 @@
+.ORIG #1000
+LEA R0, num1
+LDW R0, R0, #0
+LEA R1, num2
+LDW R1, R1, #0
+
+AND R3, R0, #7 		; 0b 00111
+AND R4, R0, #-1 	; 0b 11111
+AND R5, R0, R1
+
+
+num1 .FILL xF123
+num2 .FILL x0FF0
+.END

@@ -1,0 +1,22 @@
+CHIP Connect16 {
+    IN in[16];
+    OUT out[16];
+
+    PARTS:
+		Connect(in=in[0], out=out[0]);
+		Connect(in=in[1], out=out[1]);
+		Connect(in=in[2], out=out[2]);
+		Connect(in=in[3], out=out[3]);
+		Connect(in=in[4], out=out[4]);
+		Connect(in=in[5], out=out[5]);
+		Connect(in=in[6], out=out[6]);
+		Connect(in=in[7], out=out[7]);
+		Connect(in=in[8], out=out[8]);
+		Connect(in=in[9], out=out[9]);
+		Connect(in=in[10], out=out[10]);
+		Connect(in=in[11], out=out[11]);
+		Connect(in=in[12], out=out[12]);
+		Connect(in=in[13], out=out[13]);
+		Connect(in=in[14], out=out[14]);
+		Connect(in=in[15], out=out[15]);
+}

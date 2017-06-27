@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="3.0.0.49154" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="3.0.0.49152" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Common Language Components" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/MocCommon" Version="3.0.0.49152" />
+    </SourceModelFeatureSet>
+    <VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+        <Icon Id="226" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+            <IconPanel Height="[float]40" Id="227" Width="[float]40">
+                <IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="228" TemplateName="GrayNoText">
+                    <Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="229" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="230" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                </IconTemplate>
+                <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="231">
+                    <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="268" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                    <Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff646464" Height="[float]13" Id="269" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+                    <Text Font="[SMFont]0,6," Foreground="[SMColor]#ffffffff" Id="270" Left="[float]6" Text="[string]Student" TextWrapping="[TextWrapping]NoWrap" Top="[float]1" />
+                    <Text Font="[SMFont]0,6," Id="271" Left="[float]10" Text="[string]MOD" TextWrapping="[TextWrapping]NoWrap" Top="[float]18" />
+                </Canvas>
+            </IconPanel>
+        </Icon>
+        <ConnectorPane Height="40" Id="9" ListViewHeight="135" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+            <ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="17" />
+            <ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="354" />
+            <ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 50" Parameter="69" />
+            <ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 110" Parameter="360" />
+            <ConnectorPaneTerminal Hotspot="15 0" />
+            <ConnectorPaneTerminal Hotspot="25 0" />
+            <ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="84" />
+            <ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="355" />
+            <ConnectorPaneTerminal Hotspot="40 25" />
+            <ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 125" Parameter="371" />
+            <ConnectorPaneTerminal Hotspot="15 40" />
+            <ConnectorPaneTerminal Hotspot="25 40" />
+        </ConnectorPane>
+        <MethodDocumentation xmlns="http://www.ni.com/PlatformFramework" />
+        <DiagramUnplacedItems Id="10" />
+        <FrontPanelUnplacedItems Id="11">
+            <Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@-960863178_0" Height="[float]294" Id="272" Label="[UIModel]352" Left="[float]472" Top="[float]196" Value="{DataItemBinding Id=354}" Width="[float]404">
+                <Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@-1963530914_0" Height="[float]192" Id="273" Label="[UIModel]278" Left="[float]8" Top="[float]86" Value="{ClusterBinding FieldName=Pulse\ Shaping\ Parameters}" Width="[float]145">
+                    <EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="285" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]289" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=Modulation\ Type}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <EnumSelectorInfo DisplayValue="[string]FSK" Id="299" Value="[ushort]0" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]PSK" Id="300" Value="[ushort]1" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]QAM" Id="301" Value="[ushort]2" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]MSK" Id="302" Value="[ushort]3" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]PAM" Id="303" Value="[ushort]4" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]ASK" Id="304" Value="[ushort]5" ValueType="[Type]UInt16" />
+                    </EnumSelector>
+                    <EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="286" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]290" Left="[float]5" Top="[float]70" Value="{ClusterBinding FieldName=Pulse\ Shaping\ Filter}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <EnumSelectorInfo DisplayValue="[string]none" Id="305" Value="[ushort]0" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Raised Cosine" Id="306" Value="[ushort]1" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Root Raised Cos" Id="307" Value="[ushort]2" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Gaussian" Id="308" Value="[ushort]3" ValueType="[Type]UInt16" />
+                    </EnumSelector>
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="287" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]291" Left="[float]5" RadixVisibility="[SMVisibility]Collapsed" Top="[float]115" Value="{ClusterBinding FieldName=Filter\ Parameter}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="288" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]292" Left="[float]5" Top="[float]160" Value="{ClusterBinding FieldName=Filter\ Length\ (Symbols)}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <Label Id="289" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]285" Left="[float]5" Locked="[bool]True" Text="[string]Modulation Type" Top="[float]2" />
+                    <Label Id="290" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]286" Left="[float]5" Locked="[bool]True" Text="[string]Pulse Shaping Filter" Top="[float]47" />
+                    <Label Id="291" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]287" Left="[float]5" Locked="[bool]True" Text="[string]Filter Parameter" Top="[float]92" />
+                    <Label Id="292" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]288" Left="[float]5" Locked="[bool]True" Text="[string]Filter Length (Symbols)" Top="[float]137" />
+                </Cluster>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="274" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]279" Left="[float]165" Top="[float]29" Value="{ClusterBinding FieldName=TX\ Oversample\ Factor}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="275" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]280" Left="[float]165" Top="[float]78" Value="{ClusterBinding FieldName=Packet\ Length\ (Bits)}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="276" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]281" Left="[float]165" RadixVisibility="[SMVisibility]Collapsed" Top="[float]125" Value="{ClusterBinding FieldName=TX\ Sample\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1861215401_0" Height="[float]102" Id="277" Label="[UIModel]282" Left="[float]165" Top="[float]176" Value="{ClusterBinding FieldName=Control\ Information\ For\ Packet\ Header/Tail}" Width="[float]206">
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="293" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]294" Left="[float]5" Top="[float]70" Value="{ClusterBinding FieldName=Zero\ Pad\ Length}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <Label Id="294" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]293" Left="[float]5" Locked="[bool]True" Text="[string]Zero Pad Length" Top="[float]47" />
+                    <ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]22" Id="295" IsTypeAheadEnabled="[bool]True" Label="[UIModel]296" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=Training\ Sequence\ }" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]183" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <ComboboxSelectorInfo DisplayValue="[string]Length 11 Barker Sequence" Id="309" IsEnabled="[bool]True" Value="[string]Length 11 Barker Sequence" ValueType="[Type]String" />
+                        <ComboboxSelectorInfo DisplayValue="[string]Length 16 Barker Sequence" Id="310" IsEnabled="[bool]True" Value="[string]Length 16 Barker Sequence" ValueType="[Type]String" />
+                        <ComboboxSelectorInfo DisplayValue="[string]Neumann Hoffman Binary" Id="311" IsEnabled="[bool]True" Value="[string]Neumann Hoffman Binary" ValueType="[Type]String" />
+                    </ComboboxSelector>
+                    <Label Id="296" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]295" Left="[float]5" Locked="[bool]True" Text="[string]Training Sequence " Top="[float]2" Visible="[bool]True" />
+                </Cluster>
+                <Label Id="278" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]273" Left="[float]8" Locked="[bool]True" Text="[string]Pulse Shaping Parameters" Top="[float]63" />
+                <Label Id="279" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]274" Left="[float]165" Locked="[bool]True" Text="[string]TX Oversample Factor" Top="[float]6" />
+                <Label Id="280" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]275" Left="[float]165" Locked="[bool]True" Text="[string]Packet Length (Bits)" Top="[float]55" />
+                <Label Id="281" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]276" Left="[float]165" Locked="[bool]True" Text="[string]TX Sample Rate" Top="[float]102" />
+                <Label Id="282" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]277" Left="[float]165" Locked="[bool]True" Text="[string]Control Information For Packet Header/Tail" Top="[float]153" />
+                <ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]22" Id="283" IsTypeAheadEnabled="[bool]True" Label="[UIModel]284" Left="[float]8" Top="[float]29" Value="{ClusterBinding FieldName=Modulation\ Type}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                    <ComboboxSelectorInfo DisplayValue="[string]BPSK" Id="297" IsEnabled="[bool]True" Value="[string]BPSK" ValueType="[Type]String" />
+                    <ComboboxSelectorInfo DisplayValue="[string]QPSK" Id="298" IsEnabled="[bool]True" Value="[string]QPSK" ValueType="[Type]String" />
+                </ComboboxSelector>
+                <Label Id="284" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]283" Left="[float]8" Locked="[bool]True" Text="[string]Modulation Type" Top="[float]6" Visible="[bool]True" />
+                <Label Id="352" IsVisualChild="[bool]False" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]272" Left="[float]472" Locked="[bool]True" Text="[string]Modulation Parameters In" Top="[float]173" />
+            </Cluster>
+            <Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@-960863178_0" Height="[float]294" Id="312" Label="[UIModel]353" Left="[float]886" Top="[float]196" Value="{DataItemBinding Id=355}" Width="[float]404">
+                <Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@-1963530914_0" Height="[float]192" Id="313" Label="[UIModel]318" Left="[float]8" Top="[float]86" Value="{ClusterBinding FieldName=Pulse\ Shaping\ Parameters}" Width="[float]145">
+                    <EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="325" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]329" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=Modulation\ Type}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <EnumSelectorInfo DisplayValue="[string]FSK" Id="339" Value="[ushort]0" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]PSK" Id="340" Value="[ushort]1" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]QAM" Id="341" Value="[ushort]2" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]MSK" Id="342" Value="[ushort]3" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]PAM" Id="343" Value="[ushort]4" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]ASK" Id="344" Value="[ushort]5" ValueType="[Type]UInt16" />
+                    </EnumSelector>
+                    <EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="326" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]330" Left="[float]5" Top="[float]70" Value="{ClusterBinding FieldName=Pulse\ Shaping\ Filter}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <EnumSelectorInfo DisplayValue="[string]none" Id="345" Value="[ushort]0" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Raised Cosine" Id="346" Value="[ushort]1" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Root Raised Cos" Id="347" Value="[ushort]2" ValueType="[Type]UInt16" />
+                        <EnumSelectorInfo DisplayValue="[string]Gaussian" Id="348" Value="[ushort]3" ValueType="[Type]UInt16" />
+                    </EnumSelector>
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="327" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]331" Left="[float]5" RadixVisibility="[SMVisibility]Collapsed" Top="[float]115" Value="{ClusterBinding FieldName=Filter\ Parameter}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="328" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]332" Left="[float]5" Top="[float]160" Value="{ClusterBinding FieldName=Filter\ Length\ (Symbols)}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <Label Id="329" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]325" Left="[float]5" Locked="[bool]True" Text="[string]Modulation Type" Top="[float]2" />
+                    <Label Id="330" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]326" Left="[float]5" Locked="[bool]True" Text="[string]Pulse Shaping Filter" Top="[float]47" />
+                    <Label Id="331" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]327" Left="[float]5" Locked="[bool]True" Text="[string]Filter Parameter" Top="[float]92" />
+                    <Label Id="332" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]328" Left="[float]5" Locked="[bool]True" Text="[string]Filter Length (Symbols)" Top="[float]137" />
+                </Cluster>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="314" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]319" Left="[float]165" Top="[float]29" Value="{ClusterBinding FieldName=TX\ Oversample\ Factor}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="315" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]320" Left="[float]165" Top="[float]78" Value="{ClusterBinding FieldName=Packet\ Length\ (Bits)}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="316" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]321" Left="[float]165" RadixVisibility="[SMVisibility]Collapsed" Top="[float]125" Value="{ClusterBinding FieldName=TX\ Sample\ Rate}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1861215401_0" Height="[float]102" Id="317" Label="[UIModel]322" Left="[float]165" Top="[float]176" Value="{ClusterBinding FieldName=Control\ Information\ For\ Packet\ Header/Tail}" Width="[float]206">
+                    <NumericText BaseName="[string]Numeric" Height="[float]22" Id="333" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]334" Left="[float]5" Top="[float]70" Value="{ClusterBinding FieldName=Zero\ Pad\ Length}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                    <Label Id="334" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]333" Left="[float]5" Locked="[bool]True" Text="[string]Zero Pad Length" Top="[float]47" />
+                    <ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]22" Id="335" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]336" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=Training\ Sequence\ }" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]183" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                        <ComboboxSelectorInfo DisplayValue="[string]Length 11 Barker Sequence" Id="349" IsEnabled="[bool]True" Value="[string]Length 11 Barker Sequence" ValueType="[Type]String" />
+                        <ComboboxSelectorInfo DisplayValue="[string]Length 16 Barker Sequence" Id="350" IsEnabled="[bool]True" Value="[string]Length 16 Barker Sequence" ValueType="[Type]String" />
+                        <ComboboxSelectorInfo DisplayValue="[string]Neumann Hoffman Binary" Id="351" IsEnabled="[bool]True" Value="[string]Neumann Hoffman Binary" ValueType="[Type]String" />
+                    </ComboboxSelector>
+                    <Label Id="336" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]335" Left="[float]5" Locked="[bool]True" Text="[string]Training Sequence " Top="[float]2" Visible="[bool]True" />
+                </Cluster>
+                <Label Id="318" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]313" Left="[float]8" Locked="[bool]True" Text="[string]Pulse Shaping Parameters" Top="[float]63" />
+                <Label Id="319" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]314" Left="[float]165" Locked="[bool]True" Text="[string]TX Oversample Factor" Top="[float]6" />
+                <Label Id="320" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]315" Left="[float]165" Locked="[bool]True" Text="[string]Packet Length (Bits)" Top="[float]55" />
+                <Label Id="321" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]316" Left="[float]165" Locked="[bool]True" Text="[string]TX Sample Rate" Top="[float]102" />
+                <Label Id="322" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]317" Left="[float]165" Locked="[bool]True" Text="[string]Control Information For Packet Header/Tail" Top="[float]153" />
+                <ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Height="[float]22" Id="323" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]324" Left="[float]8" Top="[float]29" Value="{ClusterBinding FieldName=Modulation\ Type}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                    <ComboboxSelectorInfo DisplayValue="[string]BPSK" Id="337" IsEnabled="[bool]True" Value="[string]BPSK" ValueType="[Type]String" />
+                    <ComboboxSelectorInfo DisplayValue="[string]QPSK" Id="338" IsEnabled="[bool]True" Value="[string]QPSK" ValueType="[Type]String" />
+                </ComboboxSelector>
+                <Label Id="324" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]323" Left="[float]8" Locked="[bool]True" Text="[string]Modulation Type" Top="[float]6" Visible="[bool]True" />
+                <Label Id="353" IsVisualChild="[bool]False" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]312" Left="[float]886" Locked="[bool]True" Text="[string]Modulation Parameters Out" Top="[float]173" />
+            </Cluster>
+        </FrontPanelUnplacedItems>
+        <BlockDiagram Id="12">
+            <DataAccessor Bounds="-510 175 40 15" DataItem="354" Id="356" Label="357">
+                <Terminal DataType="@-960863178_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="356" Bounds="-653 175 138 16" Id="357" Text="Modulation Parameters In" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="-440 160 40 15" DataItem="355" Id="358" Label="359">
+                <Terminal DataType="@-960863178_0" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="358" Bounds="-440 141 148 16" Id="359" Text="Modulation Parameters Out" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="-525 520 40 15" DataItem="360" Id="361" Label="370">
+                <Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="361" Bounds="-569 520 39 16" Id="370" Text="Error In" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="-510 85 40 15" DataItem="69" Id="70" Label="178">
+                <Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="70" Bounds="-611 85 96 16" Id="178" Text="Symbol Energy (1)" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="-525 450 40 15" DataItem="17" Id="18" Label="176">
+                <Terminal DataType="UInt8[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="18" Bounds="-615 450 85 16" Id="176" Text="input bit stream" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="680 290 40 15" DataItem="84" Id="85" Label="180">
+                <Terminal DataType="ComplexDouble[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="85" Bounds="725 290 83 16" Id="180" Text="output symbols" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="393" Joints="N(356:Value) h(10) B(1) N(394:instance in) B(1) v(-15) N(358:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+            <DataAccessor Bounds="705 445 40 15" DataItem="371" Id="372" Label="381">
+                <Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="372" Bounds="750 445 49 16" Id="381" Text="Error Out" xmlns="http://www.ni.com/PlatformFramework" />
+            <PropertyNode Bounds="-395 175 150 165" HasErrorTerminals="False" Id="394" InstanceDataType="@-960863178_0" Template="List" Terminals="instance in=393~0:5, instance out~150:5, c0t0v=401~150:35, c1t0v~150:50, c2t0v~150:65, c3t0v~150:80, c4t0v~150:95, c5t0v~150:110, c6t0v~150:125, c7t0v~150:140, c8t0v~150:155" VerticalChunkCount="9">
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Modulation Type</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Pulse Shaping Parameters</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Pulse Shaping Parameters</PathElement>
+                    <PathElement>Modulation Type</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Pulse Shaping Parameters</PathElement>
+                    <PathElement>Pulse Shaping Filter</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Pulse Shaping Parameters</PathElement>
+                    <PathElement>Filter Parameter</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Pulse Shaping Parameters</PathElement>
+                    <PathElement>Filter Length (Symbols)</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>TX Oversample Factor</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>Packet Length (Bits)</PathElement>
+                </p.PropertyItem>
+                <p.PropertyItem IsWrite="False">
+                    <PathElement>TX Sample Rate</PathElement>
+                </p.PropertyItem>
+            </PropertyNode>
+            <CaseStructure Bounds="-227 -255 795 943" DataType="String" Default="398" Id="397" Selected="399" UserSelectorBounds="328 0 139 17">
+                <CaseStructure.Case Bounds="5 5 785 933" Id="398" Pattern="&quot;Error&quot;, Default">
+                    <ArrayLiteral Bounds="161 495 267 76" DataType="ComplexDouble[]" Facade="NationalInstruments.MocCommon.Modeling.IArrayBehavior" Id="582" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>
+                            <Array Lengths="5">
+                                <Elements>0x0;0x0,0x3FF0000000000000;0x3FF0000000000000,0x4000000000000000;0x4000000000000000,0x4008000000000000;0x4008000000000000,0x4010000000000000;0x4010000000000000</Elements>
+                            </Array>
+                        </p.Data>
+                        <ArrayBehavior ElementType="ComplexDouble" IndexEditorWidth="98" VisibleRows="4">
+                            <p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+                        </ArrayBehavior>
+                        <Literal Bounds="103 5 150 15" DataType="ComplexDouble" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="583">
+                            <p.Data>0x3FF0000000000000;0x3FF0000000000000</p.Data>
+                            <NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+                        </Literal>
+                    </ArrayLiteral>
+                    <Wire Id="584" Joints="N(582:Out) h(5) v(15) N(442:398)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="232 440 186 28" Id="585" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>special error symbol sequence</p.Text>
+                    </Comment>
+                </CaseStructure.Case>
+                <CaseStructure.Case Bounds="5 5 785 933" Id="402" Pattern="&quot;BPSK&quot;">
+                    <ForLoop Bounds="65 133 405 765" DiagramId="413" Id="412">
+                        <ForLoop.Iteration Bounds="5 735 15 15" Id="415" />
+                        <CaseStructure Bounds="63 180 237 515" DataType="UInt8" Default="423" Id="422" Selected="423" UserSelectorBounds="64 0 109 17">
+                            <CaseStructure.Case Bounds="5 5 227 505" Id="423" Pattern="1, Default">
+                                <Multiply Bounds="117 150 30 30" Id="447" Terminals="o=449, c0t0v=458, c1t0v=451" />
+                                <Wire Id="449" Joints="N(447:o) h(71) v(-60) N(438:423)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Literal Bounds="10 200 62 15" DataType="ComplexDouble" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="450" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0xBFF0000000000000;0x0</p.Data>
+                                    <NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Wire Id="451" Joints="N(450:Out) h(40) v(-35) N(447:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="458" Joints="N(436:423) h(108) v(135) N(447:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Case Bounds="5 5 227 505" Id="424" Pattern="0">
+                                <Wire Id="437" Joints="N(436:424) h(163) v(85) N(438:424)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Selector Bounds="-4 240 13 15" Docking="Left" Id="425" Terminals="422=429, 423, 424" />
+                            <CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="436" Terminals="422=435, 423=458, 424=437" />
+                            <CaseStructure.Tunnel Bounds="228 105 13 10" Docking="Right" Id="438" Terminals="422=439, 423=449, 424=437" />
+                        </CaseStructure>
+                        <Wire Id="429" Joints="N(428:413) h(34) v(-120) N(425:422)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Comment Bounds="75 115 208 42" Id="430" xmlns="http://www.ni.com/MocCommon">
+                            <p.Text>"If bit == 1 ==&gt;out symbol = neg\r\nif bit == 0 ==&gt; out symbol = pos"</p.Text>
+                        </Comment>
+                        <Wire Id="435" Joints="N(434:413) N(436:422)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="439" Joints="N(438:422) N(459:413)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <ForLoop.Count Bounds="1 1 15 15" Docking="Left" Id="414" Terminals="412=421, 413" />
+                        <ForLoop.Tunnel AutoIndex="True" Bounds="-5 542 13 10" Docking="Left" Id="428" Terminals="412=427, 413=429" />
+                        <ForLoop.Tunnel Bounds="-5 202 13 10" Docking="Left" Id="434" Terminals="412=433, 413=435" />
+                        <ForLoop.Tunnel AutoIndex="True" Bounds="395 287 13 10" Docking="Right" Id="459" Terminals="412=441, 413=439" />
+                    </ForLoop>
+                    <Comment Bounds="97 100 185 28" Id="416" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>Loop through each bit in input</p.Text>
+                    </Comment>
+                    <Wire Id="421" Joints="N(420:402) h(51) v(-5) N(414:412)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="427" Joints="N(426:402) h(30) v(-25) N(428:412)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="433" Joints="N(432:402) N(434:412)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="441" Joints="N(459:412) h(8) v(90) N(442:402)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="62 15 137 28" Id="460" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>BPSK implementation</p.Text>
+                    </Comment>
+                </CaseStructure.Case>
+                <CaseStructure.Case Bounds="5 5 785 933" Id="399" Pattern="&quot;QPSK&quot;">
+                    <Comment Bounds="22 5 139 28" Id="461" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>QPSK implementation</p.Text>
+                    </Comment>
+                    <ForLoop Bounds="140 163 620 735" DiagramId="463" Id="462">
+                        <ForLoop.Iteration Bounds="20 10 15 15" Id="465" />
+                        <ArrayIndex Bounds="175 250 40 30" Id="505" Terminals="array=506, c0t0v=513, c0t1v=678" />
+                        <Wire Id="506" Joints="N(473:463) h(82) B(1) h(75) v(-40) N(507:array) B(1) v(-285) N(505:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <ArrayIndex Bounds="170 495 40 30" Id="507" Terminals="array=506, c0t0v=515, c0t1v=698" />
+                        <Multiply Bounds="65 85 30 30" Id="508" Terminals="o=513, c0t0v=697, c1t0v=512" />
+                        <Literal Bounds="15 105 40 15" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="510" Label="511" xmlns="http://www.ni.com/MocCommon">
+                            <p.Data>2</p.Data>
+                            <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                        </Literal>
+                        <Wire Id="512" Joints="N(510:Out) h(5) v(-5) N(508:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <TextNode AttachedTo="510" Bounds="15 105 0 0" Id="511" Text="input 1" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="513" Joints="N(508:o) h(5) v(175) B(2) N(505:c0t0v) B(2) v(165) N(514:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Increment Bounds="125 425 30 30" Id="514" />
+                        <Wire Id="515" Joints="N(514:x+1) h(5) v(80) N(507:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Comment Bounds="195 215 58 28" Id="516" xmlns="http://www.ni.com/MocCommon">
+                            <p.Text>first bit</p.Text>
+                        </Comment>
+                        <Comment Bounds="165 465 75 28" Id="517" xmlns="http://www.ni.com/MocCommon">
+                            <p.Text>second bit</p.Text>
+                        </Comment>
+                        <CaseStructure Bounds="330 145 245 530" DataType="Int32" Default="519" Id="518" Selected="540" UserSelectorBounds="76 0 94 17">
+                            <CaseStructure.Case Bounds="5 5 235 520" Id="519" Pattern="Default">
+                                <Literal Bounds="57 160 85 15" DataType="ComplexDouble" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="579" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0x4059000000000000;0x4059000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                                </Literal>
+                                <Wire Id="580" Joints="N(579:Out) h(5) v(-15) N(551:519)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Comment Bounds="75 70 103 55" Id="581" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Text>"error case,\r\noutput 10+10j \r\nas our symbol"</p.Text>
+                                </Comment>
+                            </CaseStructure.Case>
+                            <CaseStructure.Case Bounds="5 5 235 520" Id="520" Pattern="0">
+                                <Wire Id="620" Joints="N(622:x + iy) h(25) v(-195) N(551:520)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="120 230 30 30" Id="621" Terminals="o=623, c0t0v=628, c1t0v=629" />
+                                <RealAndImaginaryToComplex Bounds="165 330 30 30" Id="622" />
+                                <Wire Id="623" Joints="N(621:o) h(5) v(90) N(622:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="120 390 30 30" Id="624" Terminals="o=627, c0t0v=628, c1t0v=630" />
+                                <Literal Bounds="45 355 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="625" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0x3FF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Literal Bounds="50 425 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="626" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0x3FF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Wire Id="627" Joints="N(624:o) h(5) v(-55) N(622:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="628" Joints="N(548:520) h(38) v(110) h(68) v(35) B(4) N(621:c0t0v) B(4) v(70) h(4) v(90) N(624:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="629" Joints="N(625:Out) h(5) v(-110) N(621:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="630" Joints="N(626:Out) h(25) v(-20) N(624:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Case Bounds="5 5 235 520" Id="538" Pattern="1">
+                                <Multiply Bounds="95 120 30 30" Id="555" Terminals="o=608, c0t0v=615, c1t0v=618" />
+                                <RealAndImaginaryToComplex Bounds="140 220 30 30" Id="607" />
+                                <Wire Id="608" Joints="N(555:o) h(5) v(90) N(607:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="609" Joints="N(607:x + iy) h(56) v(-85) N(551:538)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="95 280 30 30" Id="610" Terminals="o=613, c0t0v=615, c1t0v=619" />
+                                <Literal Bounds="20 245 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="611" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0xBFF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Literal Bounds="25 315 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="612" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0x3FF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Wire Id="613" Joints="N(610:o) h(5) v(-55) N(607:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="615" Joints="N(548:538) h(86) v(35) B(2) h(-5) v(70) h(3) v(90) N(610:c0t0v) B(2) N(555:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="618" Joints="N(611:Out) h(5) v(-110) N(555:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="619" Joints="N(612:Out) h(25) v(-20) N(610:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Case Bounds="5 5 235 520" Id="539" Pattern="11">
+                                <Wire Id="633" Joints="N(635:x + iy) h(56) v(-205) N(551:539)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="95 240 30 30" Id="634" Terminals="o=636, c0t0v=641, c1t0v=642" />
+                                <RealAndImaginaryToComplex Bounds="140 340 30 30" Id="635" />
+                                <Wire Id="636" Joints="N(634:o) h(5) v(90) N(635:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="95 400 30 30" Id="637" Terminals="o=640, c0t0v=641, c1t0v=643" />
+                                <Literal Bounds="20 365 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="638" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0xBFF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Literal Bounds="25 435 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="639" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0xBFF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Wire Id="640" Joints="N(637:o) h(5) v(-55) N(635:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="641" Joints="N(548:539) h(33) v(120) h(53) v(35) B(4) h(-5) v(70) h(3) v(90) N(637:c0t0v) B(4) N(634:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="642" Joints="N(638:Out) h(5) v(-110) N(634:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="643" Joints="N(639:Out) h(25) v(-20) N(637:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Case Bounds="5 5 235 520" Id="540" Pattern="10">
+                                <Multiply Bounds="100 245 30 30" Id="647" Terminals="o=649, c0t0v=654, c1t0v=655" />
+                                <RealAndImaginaryToComplex Bounds="145 345 30 30" Id="648" />
+                                <Wire Id="649" Joints="N(647:o) h(5) v(90) N(648:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Multiply Bounds="100 405 30 30" Id="650" Terminals="o=653, c0t0v=654, c1t0v=656" />
+                                <Literal Bounds="25 370 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="651" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0x3FF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Literal Bounds="30 440 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="652" xmlns="http://www.ni.com/MocCommon">
+                                    <p.Data>0xBFF0000000000000</p.Data>
+                                    <NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+                                </Literal>
+                                <Wire Id="653" Joints="N(650:o) h(5) v(-55) N(648:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="654" Joints="N(548:540) h(6) v(125) h(85) v(35) B(4) h(-5) v(70) h(3) v(90) N(650:c0t0v) B(4) N(647:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="655" Joints="N(651:Out) h(5) v(-110) N(647:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="656" Joints="N(652:Out) h(25) v(-20) N(650:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                                <Wire Id="659" Joints="N(648:x + iy) h(50) v(-210) N(551:540)" xmlns="http://www.ni.com/PlatformFramework" />
+                            </CaseStructure.Case>
+                            <CaseStructure.Selector Bounds="-4 40 13 15" Docking="Left" Id="521" Terminals="518=700, 519, 520, 538, 539, 540" />
+                            <CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="548" Terminals="518=606, 519, 520=628, 538=615, 539=641, 540=654" />
+                            <CaseStructure.Tunnel Bounds="236 150 13 10" Docking="Right" Id="551" Terminals="518=663, 519=580, 520=620, 538=609, 539=633, 540=659" />
+                        </CaseStructure>
+                        <Multiply Bounds="245 530 30 30" Id="588" Terminals="o=679, c0t0v=698, c1t0v=592" />
+                        <Literal Bounds="165 580 40 15" DataType="UInt8" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="590" Label="591" xmlns="http://www.ni.com/MocCommon">
+                            <p.Data>10</p.Data>
+                            <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                        </Literal>
+                        <Wire Id="592" Joints="N(590:Out) h(5) v(-35) N(588:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <TextNode AttachedTo="590" Bounds="165 580 0 0" Id="591" Text="input 1" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Add Bounds="275 370 30 30" Id="593" Terminals="o=700, c0t0v=678, c1t0v=679">
+                            <ConfigurableDataTypeTerminal DataType="Int32" DesiredType="Int32" Direction="Output" GuardBits="12" Hotspot="30 15" Id="o" TypeOverrideKind="Exact" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                        </Add>
+                        <Comment Bounds="260 100 56 82" Id="596" xmlns="http://www.ni.com/MocCommon">
+                            <p.Text>"Key:\r\n0  : 00\r\n1  : 10\r\n10: 01\r\n11: 11"</p.Text>
+                        </Comment>
+                        <Wire Id="606" Joints="N(546:463) h(314) v(35) N(548:518)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="663" Joints="N(551:518) N(665:463)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="678" Joints="N(505:c0t1v) h(5) v(15) h(8) v(5) h(37) v(80) N(593:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="679" Joints="N(588:o) h(5) v(-65) h(10) v(-15) h(5) v(-60) h(-25) v(-15) N(593:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="697" Joints="N(465:Output) h(5) v(75) N(508:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="698" Joints="N(507:c0t1v) h(28) v(15) N(588:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="700" Joints="N(593:o) h(10) v(-195) N(521:518)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <ForLoop.Count Bounds="1 1 15 15" Docking="Left" Id="464" Terminals="462=597, 463" />
+                        <ForLoop.Tunnel Bounds="-5 537 13 10" Docking="Left" Id="473" Terminals="462=472, 463=506" />
+                        <ForLoop.Tunnel Bounds="-5 202 13 10" Docking="Left" Id="546" Terminals="462=545, 463=606" />
+                        <ForLoop.Tunnel AutoIndex="True" Bounds="610 297 13 10" Docking="Right" Id="665" Terminals="462=664, 463=663" />
+                    </ForLoop>
+                    <Comment Bounds="177 125 168 28" Id="467" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>lopp through each bit input</p.Text>
+                    </Comment>
+                    <Wire Id="472" Joints="N(426:399) N(473:462)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="477" Joints="N(432:399) h(68) v(20) N(587:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="27 425 40 15" DataType="Double" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="481" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>0x4000000000000000</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+                    </Literal>
+                    <SquareRoot Bounds="82 420 30 30" Id="482" />
+                    <Wire Id="483" Joints="N(481:Out) h(10) v(5) N(482:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="485" Joints="N(482:sqrt(x\)) h(5) v(-20) h(-45) v(-40) N(587:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Comment Bounds="7 290 126 42" Id="486" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>"get x,y component \r\nvalue"</p.Text>
+                    </Comment>
+                    <Wire Id="489" Joints="N(420:399) h(33) v(30) N(502:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Literal Bounds="12 240 40 15" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="491" Label="492" xmlns="http://www.ni.com/MocCommon">
+                        <p.Data>2</p.Data>
+                        <NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+                    </Literal>
+                    <Wire Id="493" Joints="N(491:Out) h(5) v(-30) h(-25) v(-25) N(502:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <TextNode AttachedTo="491" Bounds="12 240 0 0" Id="492" Text="y" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                    <QuotientAndRemainder Bounds="42 170 30 30" Id="502" />
+                    <Comment Bounds="17 90 118 68" Id="504" xmlns="http://www.ni.com/MocCommon">
+                        <p.Text>"only need half as\r\nmany iterations\r\nbecause we grab\r\n2 values at a time"</p.Text>
+                    </Comment>
+                    <Wire Id="545" Joints="N(587:o) N(546:462)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Multiply Bounds="77 355 30 30" Id="587" Terminals="o=545, c0t0v=477, c1t0v=485" />
+                    <Wire Id="597" Joints="N(502:floor(x/y\)) h(59) v(-20) N(464:462)" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Wire Id="664" Joints="N(665:462) h(13) v(50) N(442:399)" xmlns="http://www.ni.com/PlatformFramework" />
+                </CaseStructure.Case>
+                <CaseStructure.Selector Bounds="-4 315 13 15" Docking="Left" Id="400" Terminals="397=401, 398, 399, 402" />
+                <CaseStructure.Tunnel Bounds="-4 145 13 10" Docking="Left" Id="420" Terminals="397=419, 398, 402=421, 399=489" />
+                <CaseStructure.Tunnel Bounds="-4 705 13 10" Docking="Left" Id="426" Terminals="397=418, 398, 402=427, 399=472" />
+                <CaseStructure.Tunnel Bounds="-4 340 13 10" Docking="Left" Id="432" Terminals="397=457, 398, 402=433, 399=477" />
+                <CaseStructure.Tunnel Bounds="786 515 13 10" Docking="Right" Id="442" Terminals="397=443, 398=584, 402=441, 399=664" />
+            </CaseStructure>
+            <Wire Id="401" Joints="N(394:c0t0v) h(9) v(-145) N(400:397)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="405" Joints="N(70:Value) h(40) v(-5) N(408:x)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Comment Bounds="-595 -85 242 42" Id="407" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>"Avg symbol energy is related to the &lt;&gt; \r\nSquare of the symbol magnitude."</p.Text>
+            </Comment>
+            <SquareRoot Bounds="-425 70 30 30" Id="408" Label="409" />
+            <TextNode AttachedTo="408" Bounds="-425 70 0 0" Id="409" IsReadOnly="True" Text="Square Root" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+            <Comment Bounds="-430 40 100 28" Id="411" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>Avg Magnitude</p.Text>
+            </Comment>
+            <ArraySize Bounds="-460 425 40 20" Id="417" />
+            <Wire Id="418" Joints="N(18:Value) h(5) B(1) N(426:397) B(1) v(-25) N(417:array)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="419" Joints="N(417:size(s\)) h(173) v(-545) N(420:397)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="443" Joints="N(442:397) h(6) v(30) N(85:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="457" Joints="N(408:sqrt(x\)) h(55) v(5) N(432:397)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="586" Joints="N(361:Value) h(5) v(190) h(1180) v(-265) N(372:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+        </BlockDiagram>
+        <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000">
+            <ArrayViewer ArrayElement="[UIModel]16" BaseName="[string]Array" Columns="[int]6" Dimensions="[int]1" Height="[float]36" Id="19" Label="[UIModel]145" Left="[float]479" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]128" Value="{DataItemBinding Id=17}" Width="[float]310" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0</p.DefaultElementValue>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="16" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]53" Name="[string]Child" Top="[float]7" Value="[byte]0" ValueType="[Type]UInt8" Width="[float]40" />
+            </ArrayViewer>
+            <NumericText BaseName="[string]Numeric" Height="[float]22" Id="71" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]147" Left="[float]479" RadixVisibility="[SMVisibility]Collapsed" Top="[float]195" Value="{DataItemBinding Id=69}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <ArrayViewer ArrayElement="[UIModel]83" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="86" Label="[UIModel]149" Left="[float]661" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]188" Value="{DataItemBinding Id=84}" Width="[float]114" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+                <NumericText BaseName="[string]Numeric" Height="[float]22" Id="83" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" Name="[string]Child" RadixVisibility="[SMVisibility]Collapsed" Top="[float]7" Value="[ComplexDouble]0 + 0i" ValueType="[Type]ComplexDouble" Width="[float]54" />
+            </ArrayViewer>
+            <Label Id="145" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]19" Left="[float]479" Locked="[bool]True" Text="[string]input bit stream" Top="[float]105" />
+            <Label Id="147" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]71" Left="[float]479" Locked="[bool]True" Text="[string]Symbol Energy (1)" Top="[float]172" />
+            <Label Id="149" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]86" Left="[float]661" Locked="[bool]True" Text="[string]output symbols" Top="[float]165" />
+            <Cluster BaseName="[string]Error In" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="362" Label="[UIModel]369" Left="[float]479" Top="[float]247" Value="{DataItemBinding Id=360}" Width="[float]138">
+                <LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="363" Label="[UIModel]364" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="364" LabelOwner="[UIModel]363" Left="[float]5" Locked="[bool]True" Text="[string]status" Top="[float]5" />
+                <NumericText Height="[float]22" Id="365" Label="[UIModel]366" Left="[float]50" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="366" LabelOwner="[UIModel]365" Left="[float]50" Locked="[bool]True" Text="[string]code" Top="[float]5" />
+                <StringControl AcceptsReturn="[bool]True" Height="[float]80" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="367" IsReadOnly="[bool]False" Label="[UIModel]368" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="368" LabelOwner="[UIModel]367" Left="[float]5" Locked="[bool]True" Text="[string]source" Top="[float]52" />
+            </Cluster>
+            <Label Id="369" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]362" Left="[float]479" Locked="[bool]True" Text="[string]Error In" Top="[float]224" />
+            <Cluster BaseName="[string]Error Out" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="373" Label="[UIModel]380" Left="[float]661" Top="[float]247" Value="{DataItemBinding Id=371}" Width="[float]138">
+                <LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="374" IsReadOnly="[bool]True" Label="[UIModel]375" Left="[float]5" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="375" LabelOwner="[UIModel]374" Left="[float]5" Locked="[bool]True" Text="[string]status" Top="[float]5" />
+                <NumericText Height="[float]22" Id="376" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]377" Left="[float]50" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="377" LabelOwner="[UIModel]376" Left="[float]50" Locked="[bool]True" Text="[string]code" Top="[float]5" />
+                <StringControl AcceptsReturn="[bool]True" Height="[float]80" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="378" IsReadOnly="[bool]True" Label="[UIModel]379" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+                <Label Id="379" LabelOwner="[UIModel]378" Left="[float]5" Locked="[bool]True" Text="[string]source" Top="[float]52" />
+            </Cluster>
+            <Label Id="380" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]373" Left="[float]661" Locked="[bool]True" Text="[string]Error Out" Top="[float]224" />
+        </CPFrontPanel>
+        <DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="UInt8[]" Id="17" Name="input bit stream" />
+        <DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="3" DataType="Double" Id="69" Name="Symbol Energy (1)">
+            <p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Output" CallIndex="1" DataType="ComplexDouble[]" Id="84" Name="output symbols" />
+        <DataItem CallDirection="Input" CallIndex="0" DataType="@-960863178_0" Id="354" Name="Modulation Parameters In">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>QPSK</Field1>
+                    <Field2>
+                        <Cluster>
+                            <Field1>1</Field1>
+                            <Field2>2</Field2>
+                            <Field3>0x3FE0000000000000</Field3>
+                            <Field4>8</Field4>
+                        </Cluster>
+                    </Field2>
+                    <Field3>20</Field3>
+                    <Field4>500</Field4>
+                    <Field5>0x4059000000000000</Field5>
+                    <Field6>
+                        <Cluster>
+                            <Field1>Length 11 Barker Sequence</Field1>
+                            <Field2>8</Field2>
+                        </Cluster>
+                    </Field6>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Output" CallIndex="0" DataType="@-960863178_0" Id="355" Name="Modulation Parameters Out">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>QPSK</Field1>
+                    <Field2>
+                        <Cluster>
+                            <Field1>1</Field1>
+                            <Field2>2</Field2>
+                            <Field3>0x3FE0000000000000</Field3>
+                            <Field4>8</Field4>
+                        </Cluster>
+                    </Field2>
+                    <Field3>20</Field3>
+                    <Field4>500</Field4>
+                    <Field5>0x4059000000000000</Field5>
+                    <Field6>
+                        <Cluster>
+                            <Field1>Length 11 Barker Sequence</Field1>
+                            <Field2>8</Field2>
+                        </Cluster>
+                    </Field6>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="360" Name="Error In">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>False</Field1>
+                    <Field2>0</Field2>
+                    <Field3>""</Field3>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Output" CallIndex="2" DataType="Error" Id="371" Name="Error Out">
+            <p.DefaultValue>
+                <Cluster>
+                    <Field1>False</Field1>
+                    <Field2>0</Field2>
+                    <Field3>""</Field3>
+                </Cluster>
+            </p.DefaultValue>
+        </DataItem>
+        <DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+            <p.TypeReference TypeId="-960863178_0">
+                <Class Id="1" Name="" Cluster="">
+                    <ClosedGenericParameters />
+                    <GenericTypeDefinition>
+                        <Void />
+                    </GenericTypeDefinition>
+                    <BaseType>
+                        <Void />
+                    </BaseType>
+                    <Interfaces />
+                    <Members>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
+                            <DataType>
+                                <String />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Parameters">
+                            <DataType>
+                                <Class Id="2" Name="" Cluster="">
+                                    <ClosedGenericParameters />
+                                    <GenericTypeDefinition>
+                                        <Void />
+                                    </GenericTypeDefinition>
+                                    <BaseType>
+                                        <Void />
+                                    </BaseType>
+                                    <Interfaces />
+                                    <Members>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
+                                            <DataType>
+                                                <Enumeration Name="Enum">
+                                                    <Members>
+                                                        <EnumerationMember Value="0" Name="FSK" />
+                                                        <EnumerationMember Value="1" Name="PSK" />
+                                                        <EnumerationMember Value="2" Name="QAM" />
+                                                        <EnumerationMember Value="3" Name="MSK" />
+                                                        <EnumerationMember Value="4" Name="PAM" />
+                                                        <EnumerationMember Value="5" Name="ASK" />
+                                                    </Members>
+                                                    <DataType>
+                                                        <UInt16 />
+                                                    </DataType>
+                                                </Enumeration>
+                                            </DataType>
+                                        </Field>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Filter">
+                                            <DataType>
+                                                <Enumeration Name="Enum">
+                                                    <Members>
+                                                        <EnumerationMember Value="0" Name="none" />
+                                                        <EnumerationMember Value="1" Name="Raised Cosine" />
+                                                        <EnumerationMember Value="2" Name="Root Raised Cos" />
+                                                        <EnumerationMember Value="3" Name="Gaussian" />
+                                                    </Members>
+                                                    <DataType>
+                                                        <UInt16 />
+                                                    </DataType>
+                                                </Enumeration>
+                                            </DataType>
+                                        </Field>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Filter Parameter">
+                                            <DataType>
+                                                <Double />
+                                            </DataType>
+                                        </Field>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Filter Length (Symbols)">
+                                            <DataType>
+                                                <Int32 />
+                                            </DataType>
+                                        </Field>
+                                    </Members>
+                                </Class>
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="TX Oversample Factor">
+                            <DataType>
+                                <Int32 />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Packet Length (Bits)">
+                            <DataType>
+                                <Int32 />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="TX Sample Rate">
+                            <DataType>
+                                <Double />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Control Information For Packet Header/Tail">
+                            <DataType>
+                                <Class Id="3" Name="" Cluster="">
+                                    <ClosedGenericParameters />
+                                    <GenericTypeDefinition>
+                                        <Void />
+                                    </GenericTypeDefinition>
+                                    <BaseType>
+                                        <Void />
+                                    </BaseType>
+                                    <Interfaces />
+                                    <Members>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Training Sequence ">
+                                            <DataType>
+                                                <String />
+                                            </DataType>
+                                        </Field>
+                                        <Field FieldAccessPolicy="ReadWrite" Name="Zero Pad Length">
+                                            <DataType>
+                                                <Int32 />
+                                            </DataType>
+                                        </Field>
+                                    </Members>
+                                </Class>
+                            </DataType>
+                        </Field>
+                    </Members>
+                </Class>
+            </p.TypeReference>
+            <p.TypeReference TypeId="-1963530914_0">
+                <Class Id="1" Name="" Cluster="">
+                    <ClosedGenericParameters />
+                    <GenericTypeDefinition>
+                        <Void />
+                    </GenericTypeDefinition>
+                    <BaseType>
+                        <Void />
+                    </BaseType>
+                    <Interfaces />
+                    <Members>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Modulation Type">
+                            <DataType>
+                                <Enumeration Name="Enum">
+                                    <Members>
+                                        <EnumerationMember Value="0" Name="FSK" />
+                                        <EnumerationMember Value="1" Name="PSK" />
+                                        <EnumerationMember Value="2" Name="QAM" />
+                                        <EnumerationMember Value="3" Name="MSK" />
+                                        <EnumerationMember Value="4" Name="PAM" />
+                                        <EnumerationMember Value="5" Name="ASK" />
+                                    </Members>
+                                    <DataType>
+                                        <UInt16 />
+                                    </DataType>
+                                </Enumeration>
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Pulse Shaping Filter">
+                            <DataType>
+                                <Enumeration Name="Enum">
+                                    <Members>
+                                        <EnumerationMember Value="0" Name="none" />
+                                        <EnumerationMember Value="1" Name="Raised Cosine" />
+                                        <EnumerationMember Value="2" Name="Root Raised Cos" />
+                                        <EnumerationMember Value="3" Name="Gaussian" />
+                                    </Members>
+                                    <DataType>
+                                        <UInt16 />
+                                    </DataType>
+                                </Enumeration>
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Filter Parameter">
+                            <DataType>
+                                <Double />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Filter Length (Symbols)">
+                            <DataType>
+                                <Int32 />
+                            </DataType>
+                        </Field>
+                    </Members>
+                </Class>
+            </p.TypeReference>
+            <p.TypeReference TypeId="1861215401_0">
+                <Class Id="1" Name="" Cluster="">
+                    <ClosedGenericParameters />
+                    <GenericTypeDefinition>
+                        <Void />
+                    </GenericTypeDefinition>
+                    <BaseType>
+                        <Void />
+                    </BaseType>
+                    <Interfaces />
+                    <Members>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Training Sequence ">
+                            <DataType>
+                                <String />
+                            </DataType>
+                        </Field>
+                        <Field FieldAccessPolicy="ReadWrite" Name="Zero Pad Length">
+                            <DataType>
+                                <Int32 />
+                            </DataType>
+                        </Field>
+                    </Members>
+                </Class>
+            </p.TypeReference>
+        </DataTypeReferenceTable>
+    </VirtualInstrument>
+</SourceFile>

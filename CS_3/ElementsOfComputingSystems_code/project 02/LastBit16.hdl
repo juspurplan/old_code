@@ -1,0 +1,7 @@
+CHIP LastBit16 {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    	Connect(in=in[15], out=out);
+}

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\__SchoolWork\EE316_Lab5\lab5-part 2\Lab5-manual\lab5_manual.ncd
+OUTFILE=Z:\__SchoolWork\EE316_Lab5\lab5-part 2\Lab5-manual\lab5_manual.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=Z:\__SchoolWork\EE316_Lab5\lab5-part 2\Lab5-manual
+LICENSE=ISE
+USER_INFO=210777625_1777494353_210565950_607

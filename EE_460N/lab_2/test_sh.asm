@@ -1,0 +1,24 @@
+.ORIG #1000
+
+ADD R0, R0, #1
+LSHF R0, R0, #1
+LSHF R0, R0, #10
+ADD R0, R0, #3
+LSHF R0, R0, #4
+
+ADD R1, R0, #0
+
+RSHFA R0, R0, #1
+RSHFA R0, R0, #1
+RSHFA R0, R0, #3
+
+ADD R2, R0, #0
+
+RSHFL R0, R0, #1
+RSHFL R0, R0, #3
+
+ADD R3 R0, #0
+
+HALT
+
+.END

@@ -1,0 +1,11 @@
+CRITICAL WARNING: [Common 17-183] Failed to open handle webtalk.jou. Please check access permission of directory 'C:\Windows'. You should restart the application from a writable working directory.
+CRITICAL WARNING: [Common 17-183] Failed to open handle webtalk.log. Please check access permission of directory 'C:\Windows'. You should restart the application from a writable working directory.
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Mar 31 21:45:23 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2014.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 31 21:45:23 2016...

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Apr 21 10:10:58 2015
+# Process ID: 20692
+# Log file: Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/planAhead_run_1/planAhead.log
+# Journal file: Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -264 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/pa.fromNetlist.tcl}
+# create_project -name Lab5-manual -dir "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/planAhead_run_2" -part xc3s200ft256-5
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 411.762 ; gain = 55.504
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual} }
+# set_property target_constrs_file "lab5_manual.ucf" [current_fileset -constrset]
+Adding file 'Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.ucf' to fileset 'constrs_1'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+# add_files [list {lab5_manual.ucf}] -fileset [get_property constrset [current_run]]
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual\planAhead_pid20692.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Apr 21 10:12:08 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\__SchoolWork\lab7\lab7_xilinx_project\impact.xsl
+OUTFILE=Z:\__SchoolWork\lab7\lab7_xilinx_project\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=Z:\__SchoolWork\lab7\lab7_xilinx_project
+LICENSE=iMPACT
+USER_INFO=iMPACT

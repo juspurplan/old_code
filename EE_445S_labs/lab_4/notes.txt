@@ -1,0 +1,37 @@
+notes:
+
+CLock Profile
+for GeneratePN for 1 bit
+56 cycles
+45
+45
+
+
+Period of PN sequence (states):
+9
+
+Period of PN sequence (currnet bit):
+9
+
+
+
+Input Seq to scramble:
+{1,1,0,0,1,0,1,1,1,0};
+
+Result of Descrambler:
+1
+1
+0
+0
+1
+0
+1
+1
+1
+0
+
+ClockProfile:
+Scrambler
+61, 61
+Descrambler
+68, 68

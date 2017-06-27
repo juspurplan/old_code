@@ -1,0 +1,94 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Wed Apr 20 21:40:33 2016
+| Host         : ECJ1-222-06 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file Complete_MIPS_control_sets_placed.rpt
+| Design       : Complete_MIPS
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    41 |
+| Minimum Number of register sites lost to control set restrictions |    19 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              76 |           40 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |            9 |
+| Yes          | No                    | No                     |            1158 |          667 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              11 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------+-----------------------+------------------+----------------+
+|  Clock Signal  |           Enable Signal          |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+----------------------------------+-----------------------+------------------+----------------+
+|  CLK_IBUF_BUFG |                                  |                       |                1 |              1 |
+|  CPUclock_BUFG | CPU/n_0_opsave[4]_i_1            | CPU/n_0_opsave[5]_i_1 |                2 |              4 |
+|  CPUclock_BUFG | CPU/n_0_opsave[4]_i_1            |                       |                3 |              6 |
+|  CPUclock_BUFG | CPU/n_0_pc[6]_i_1                | RST_IBUF              |                3 |              7 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[10][31]_i_1 |                       |               21 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[11][31]_i_1 |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[12][31]_i_1 |                       |               18 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[13][31]_i_1 |                       |               24 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[14][31]_i_1 |                       |               23 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[15][31]_i_1 |                       |               22 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[16][31]_i_1 |                       |               22 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[17][31]_i_1 |                       |               21 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[18][31]_i_1 |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[19][31]_i_1 |                       |               23 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[1][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[20][31]_i_1 |                       |               18 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[21][31]_i_1 |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[22][31]_i_1 |                       |               19 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[23][31]_i_1 |                       |               21 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[24][31]_i_1 |                       |               16 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[25][31]_i_1 |                       |               16 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[26][31]_i_1 |                       |               19 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[27][31]_i_1 |                       |               15 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[28][31]_i_1 |                       |               19 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[29][31]_i_1 |                       |               17 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[2][31]_i_1  |                       |               17 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[30][31]_i_1 |                       |               17 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[31][31]_i_1 |                       |               15 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[3][31]_i_1  |                       |               18 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[4][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[5][31]_i_1  |                       |               17 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[6][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[7][31]_i_1  |                       |               19 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[8][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[9][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/n_0_alu_result_save[31]_i_1  |                       |               22 |             32 |
+|  CPUclock_BUFG | CPU/n_0_instr[31]_i_1            |                       |                8 |             32 |
+|  CLK_IBUF_BUFG |                                  | div/n_0_count[31]_i_1 |                9 |             32 |
+|  CPUclock_BUFG | CPU/Register/n_0_REG[0][31]_i_1  |                       |               20 |             32 |
+|  CPUclock_BUFG | CPU/n_0_special_reg_HI[31]_i_1   |                       |               17 |             64 |
+|  CPUclock_BUFG |                                  |                       |               39 |             75 |
++----------------+----------------------------------+-----------------------+------------------+----------------+
+
+

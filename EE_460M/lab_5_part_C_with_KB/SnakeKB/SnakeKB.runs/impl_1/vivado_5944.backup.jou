@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Mar 31 21:37:44 2016
+# Process ID: 4344
+# Log file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.runs/impl_1/SnakeKB.vdi
+# Journal file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SnakeKB.tcl -notrace

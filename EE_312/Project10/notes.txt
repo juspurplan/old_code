@@ -1,0 +1,112 @@
+1) Node parent class
+	-holds our "tokens"
+	-should be abstract 
+	-exception: i may use the basic Node to hold numeric data.
+	-will always hold a pointer to the next "instruction" Node
+
+2) OutputNode, SetNode, VarNode, DoNode, IfNode, CallNode Operator+Node
+	-should inherit from Node
+	-should contain children nodes specific to that command
+	-have an execute()/evaluate() function..
+	that does something. it might check it's own children nodes (and call execute on them too)then ultimately 
+	place a value in itself before backtracking.
+
+3) SymbolTable class
+	-basic map structure.
+	-should map <MyString>  =>  <int>
+		-for now, only supports integer variables.
+	- 
+
+*3) scrapped original symbol table idea
+	-make a Map template Class..
+	-maps <T> => <V>
+	-types T and V need to have:
+		copy
+		assignment copy
+		== comparison
+
+4) ParseTree class
+	-might not be needed
+	-since the only thing wee really need is a Node* root pointer.
+	++theste 2 points are now moot.
+
+
+	-actually now that i think about it, it might be easier to make a parse tree class
+	and have it include the root Node and SymbolTable. That way, functions can simply
+	include the name, and it's own parse tree
+	-Also, when the return Node is reached and executed sucessfully, it should place it's
+	return value in a member of ParseTree so the CallNode can fetch it.
+
+
+	--the ParseTree class is starting to feel like a representation of a "function" like main.
+
+	++solution to fix the "run time" parsing and execution of function definitions:
+	rename the functions. and put it in a global list, pre-parsed.
+	In the DefunNode, just have it fetch the function hook (pointer) and place it in local memory.
+
+	++Above doesn't quite work since my maps don't work with pointer types, only actual object types.. So ill have to write copy functions
+	for Nodes and ParseTrees..
+
+	++okay screw that plan too.. With actual ParseTres inside my map, im getting in infinite construction. So ill have to use pointers..
+	So the downside is now i ahve to manage the lifetime of those Tree objects since only the pointers will be destroyed.
+
+ 
+5) some sort of data structure to hold functions. probably a map: <String> => <ParseTree>
+	-calls will, push arguments onto the new local symbol table, then execute the function's tree, 
+	then store the function tree's result in the CallNode's value.
+
+
+
+
+
+6) write a ParseTree builder, taking in tokens from the lexer.
+
+
+
+
+
+List of Node subclasses to write:
+	*var
+	*set
+	*output
+	*text
+
+	*symbol node 	//represents a variable in an expression
+
+	*opeartor+
+	*operator-
+	*operator*
+	*operator/
+	*operator%
+	*operator~		//arithmetic negation
+
+	*operator&&
+	*operator||
+	*operator>
+	*operator>=
+	*operator<
+	*operator<=
+	*operator==
+	*operator!=
+	*operator!
+
+
+	**could have made an intermmediate Node subclass called BinaryOperatorNode, and UnaryOperatorNode
+	and have all my operators extend one of those classes.
+
+
+//from pdf B
+	*do
+	*if
+	defun
+	*call
+	*return node
+
+
+Major design change for ReturnNode
+
+	i made the virtual execute function now also pass a Node* root parameter.. Now ReturnNode doesn't need to hold a func_root member. (need to change parse functions accordingly)
+
+
+
+

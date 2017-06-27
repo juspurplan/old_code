@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/SimUAid_synthesis_pack</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/SimUAid_synthesis_pack</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and3/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and4/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/and5/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or3/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or4/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/or5/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand3/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand4/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nand5/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor3/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor4/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nor5/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/xor2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/xor2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/xnor2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/xnor2/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/inverter</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/inverter/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Dflipflop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Dflipflop/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/JKflipflop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/JKflipflop/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Counter</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Counter/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/LoadableCounter</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/LoadableCounter/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nbitRegister</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/nbitRegister/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NBitAdder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NBitAdder/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NWideMux</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NWideMux/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegLS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegLS/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegRS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegRS/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegBidir</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/ShiftRegBidir/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NBitTristate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/NBitTristate/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Complementer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Complementer/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/FullAdder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/FullAdder/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Decoder_2_to_4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Decoder_2_to_4/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Decoder_3_to_8</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Decoder_3_to_8/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_2_to_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_2_to_1/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_4_to_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_4_to_1/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_8_to_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/MUX_8_to_1/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Tristatebuf</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">SimUAid_Synthesis_Package/Tristatebuf/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Program Files (x86)/SimUaid/SimUAid_Synthesis_Package.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_lab3a/SimUAid_Synthesis_Package.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_22</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_21</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_20</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_19</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_18</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_17</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_16</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Vnet_13</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">nor2</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">nor21</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">nor3</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">nor31</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">nor4</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">nor41</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">nor5</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">nor51</arg>&apos;
+</msg>
+
+</messages>
+

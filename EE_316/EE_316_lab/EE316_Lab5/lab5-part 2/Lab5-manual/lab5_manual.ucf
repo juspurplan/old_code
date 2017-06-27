@@ -1,0 +1,14 @@
+
+
+NET "CLK" LOC = D9;
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "X" LOC = F12;
+NET "RESET" LOC = L13;
+NET "Z" LOC = P13;
+
+# PlanAhead Generated physical constraints 
+
+NET "Q1" LOC = L12;
+NET "Q2" LOC = P14;
+NET "Q3" LOC = K12;
+NET "SET" LOC = L14;

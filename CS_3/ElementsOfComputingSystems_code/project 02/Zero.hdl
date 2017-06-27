@@ -1,0 +1,8 @@
+CHIP Zero {
+    IN in;
+    OUT out;
+
+    PARTS:
+    	Not(in=in, out=b);
+		And(a=in, b=b, out=out);
+}

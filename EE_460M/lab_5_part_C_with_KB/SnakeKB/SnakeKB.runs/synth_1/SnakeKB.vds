@@ -1,0 +1,612 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Mar 31 21:59:33 2016
+# Process ID: 4736
+# Log file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.runs/synth_1/SnakeKB.vds
+# Journal file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SnakeKB.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-2L
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.cache/wt [current_project]
+# set_property parent.project_path Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/HexTo7Segment.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/DisplayFSM.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ShiftReg.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ChangeCode.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Strobe.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SevenSegmentDisplayController.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/CodeReg.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/KeyToCommand.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/VGADisplayController.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/GameState.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/partA.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SnakeKB.v
+# }
+# read_xdc Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc
+# set_property used_in_implementation false [get_files Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc]
+# catch { write_hwdef -file SnakeKB.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top SnakeKB -part xc7a35tcpg236-2L
+Command: synth_design -top SnakeKB -part xc7a35tcpg236-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2015.03' and will expire in -366 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 239.852 ; gain = 81.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SnakeKB' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SnakeKB.v:2]
+INFO: [Synth 8-638] synthesizing module 'partA' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/partA.v:1]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ShiftReg' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ShiftReg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ShiftReg' (1#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ShiftReg.v:1]
+INFO: [Synth 8-638] synthesizing module 'ChangeCode' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ChangeCode.v:2]
+INFO: [Synth 8-256] done synthesizing module 'ChangeCode' (2#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/ChangeCode.v:2]
+INFO: [Synth 8-638] synthesizing module 'CodeReg' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/CodeReg.v:1]
+INFO: [Synth 8-256] done synthesizing module 'CodeReg' (3#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/CodeReg.v:1]
+INFO: [Synth 8-638] synthesizing module 'Strobe' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Strobe.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Strobe' (4#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Strobe.v:1]
+INFO: [Synth 8-638] synthesizing module 'SevenSegmentDisplayController' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SevenSegmentDisplayController.v:1]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter REFRESH_RATE bound to: 80 - type: integer 
+	Parameter DIVIDE_FREQUENCY bound to: 312500 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'HexTo7Segment' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/HexTo7Segment.v:1]
+INFO: [Synth 8-256] done synthesizing module 'HexTo7Segment' (5#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/HexTo7Segment.v:1]
+INFO: [Synth 8-638] synthesizing module 'Divider' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+	Parameter DIVIDE_BY bound to: 312500 - type: integer 
+	Parameter DURATION bound to: 156250 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider' (6#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+INFO: [Synth 8-638] synthesizing module 'DisplayFSM' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/DisplayFSM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DisplayFSM' (7#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/DisplayFSM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegmentDisplayController' (8#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SevenSegmentDisplayController.v:1]
+INFO: [Synth 8-638] synthesizing module 'KeyToCommand' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/KeyToCommand.v:1]
+INFO: [Synth 8-256] done synthesizing module 'KeyToCommand' (9#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/KeyToCommand.v:1]
+INFO: [Synth 8-256] done synthesizing module 'partA' (10#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/partA.v:1]
+INFO: [Synth 8-638] synthesizing module 'Divider__parameterized0' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+	Parameter DIVIDE_BY bound to: 2000000 - type: integer 
+	Parameter DURATION bound to: 1000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider__parameterized0' (10#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+INFO: [Synth 8-638] synthesizing module 'Divider__parameterized1' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+	Parameter DIVIDE_BY bound to: 4 - type: integer 
+	Parameter DURATION bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider__parameterized1' (10#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/Divider.v:4]
+INFO: [Synth 8-638] synthesizing module 'GameState' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/GameState.v:2]
+	Parameter SNAKE_MAX_LENGTH bound to: 60 - type: integer 
+	Parameter SNAKE_DEFAULT_LENGTH bound to: 20 - type: integer 
+	Parameter SNAKE_LENGTH_INC bound to: 1 - type: integer 
+	Parameter SNAKE_MAX_SPEED bound to: 5 - type: integer 
+	Parameter SNAKE_DEFAULT_SPEED bound to: 1 - type: integer 
+	Parameter SNAKE_SPEED_INC bound to: 1 - type: integer 
+	Parameter SNAKE_SEGMENT_SIZE bound to: 10 - type: integer 
+	Parameter SNAKE_START_X bound to: 0 - type: integer 
+	Parameter SNAKE_START_Y bound to: 100 - type: integer 
+	Parameter SNAKE_START_DIR bound to: 1 - type: integer 
+	Parameter TICKS_BEFORE_INC bound to: 300 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'GameState' (11#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/GameState.v:2]
+INFO: [Synth 8-638] synthesizing module 'VGADisplayController' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/VGADisplayController.v:2]
+	Parameter WIDTH bound to: 640 - type: integer 
+	Parameter HEIGHT bound to: 480 - type: integer 
+	Parameter X_BLANK_SIZE bound to: 160 - type: integer 
+	Parameter X_BLANK_LOW bound to: 19 - type: integer 
+	Parameter X_BLANK_HIGH bound to: 115 - type: integer 
+	Parameter Y_BLANK_SIZE bound to: 45 - type: integer 
+	Parameter Y_BLANK_LOW bound to: 13 - type: integer 
+	Parameter Y_BLANK_HIGH bound to: 15 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'VGADisplayController' (12#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/VGADisplayController.v:2]
+INFO: [Synth 8-256] done synthesizing module 'SnakeKB' (13#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/SnakeKB.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 289.855 ; gain = 131.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 289.855 ; gain = 131.117
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc]
+Finished Parsing XDC File [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 598.449 ; gain = 0.063
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+ROM "read" won't be mapped to RAM because it is too sparse.
+ROM "enable_change" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "state" won't be mapped to RAM because address size (21) is larger than maximum supported(18) 
+ROM size is below threshold of ROM address width. It will be mapped to LUTs
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/GameState.v:132]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C_with_KB/SnakeKB/SnakeKB.srcs/sources_1/imports/lab_5_part_C_with_KB/GameState.v:132]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'GameState'
+ROM "tick_count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "x" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "tick_count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "x" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "x" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "y" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'GameState'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:46 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |GameState__GB0 |           1|     29640|
+|2     |GameState__GB1 |           1|      5995|
+|3     |GameState__GB2 |           1|      8058|
+|4     |GameState__GB3 |           1|      9240|
+|5     |GameState__GB4 |           1|      9910|
+|6     |GameState__GB5 |           1|     14913|
+|7     |SnakeKB__GC0   |           1|      5800|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 128   
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 126   
+	               24 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                4 Bit    Registers := 6     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 123   
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input     21 Bit        Muxes := 1     
+	   3 Input     12 Bit        Muxes := 1     
+	  61 Input     12 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 1     
+	  19 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SnakeKB 
+Detailed RTL Component Info : 
+Module GameState 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 123   
+	   3 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 123   
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 123   
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     12 Bit        Muxes := 1     
+	  61 Input     12 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  19 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module ShiftReg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ChangeCode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module CodeReg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
+Module Strobe 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module HexTo7Segment__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+Module HexTo7Segment 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DisplayFSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module SevenSegmentDisplayController 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+Module KeyToCommand 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     21 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+Module partA 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module Divider__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Divider__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module VGADisplayController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:49 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "div0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "div1/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "tick_count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "pa/en_chg/enable_change" won't be mapped to RAM because it is too sparse.
+ROM "pa/str/state" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+ROM "pa/display0/div0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "pa/ktc/state" won't be mapped to RAM because address size (21) is larger than maximum supported(18) 
+ROM size is below threshold of ROM address width. It will be mapped to LUTs
+ROM "div0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "div1/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 598.449 ; gain = 439.711
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |GameState__GB0 |           1|     29577|
+|2     |GameState__GB1 |           1|      5995|
+|3     |GameState__GB2 |           1|      8058|
+|4     |GameState__GB3 |           1|      9240|
+|5     |GameState__GB4 |           1|      9910|
+|6     |GameState__GB5 |           1|     14913|
+|7     |SnakeKB__GC0   |           1|      5679|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:18 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:18 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:58 ; elapsed = 00:01:18 . Memory (MB): peak = 598.449 ; gain = 439.711
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |GameState__GB0 |           1|     21209|
+|2     |GameState__GB1 |           1|      3724|
+|3     |GameState__GB2 |           1|      4940|
+|4     |GameState__GB3 |           1|      5104|
+|5     |GameState__GB4 |           1|      6092|
+|6     |GameState__GB5 |           1|      4214|
+|7     |SnakeKB__GC0   |           1|      1052|
++------+---------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:58 ; elapsed = 00:01:18 . Memory (MB): peak = 598.449 ; gain = 439.711
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:18 ; elapsed = 00:01:38 . Memory (MB): peak = 664.703 ; gain = 505.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:22 ; elapsed = 00:01:44 . Memory (MB): peak = 680.574 ; gain = 521.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |GameState__GB0 |           1|     21209|
+|2     |GameState__GB1 |           1|      3724|
+|3     |GameState__GB2 |           1|      4940|
+|4     |GameState__GB3 |           1|      5104|
+|5     |GameState__GB4 |           1|      6092|
+|6     |GameState__GB5 |           1|      4214|
+|7     |SnakeKB__GC0   |           1|      1052|
++------+---------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:59 ; elapsed = 00:02:24 . Memory (MB): peak = 732.148 ; gain = 573.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:02 ; elapsed = 00:02:27 . Memory (MB): peak = 732.148 ; gain = 573.410
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:02 ; elapsed = 00:02:27 . Memory (MB): peak = 732.148 ; gain = 573.410
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:05 ; elapsed = 00:02:30 . Memory (MB): peak = 732.148 ; gain = 573.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|SnakeKB     | pa/shift/reg_value_reg[13] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     4|
+|2     |CARRY4  |  2284|
+|3     |INV     |     2|
+|4     |LUT1    |  4116|
+|5     |LUT2    |  6065|
+|6     |LUT3    |   101|
+|7     |LUT4    |  7695|
+|8     |LUT5    |    58|
+|9     |LUT6    |    88|
+|10    |MUXCY_L |    62|
+|11    |SRL16E  |     1|
+|12    |XORCY   |    64|
+|13    |FDRE    |  4164|
+|14    |IBUF    |     3|
+|15    |OBUF    |    18|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------+------------------------+------+
+|      |Instance  |Module                  |Cells |
++------+----------+------------------------+------+
+|1     |top       |                        | 24725|
+|2     |  disp0   |VGADisplayController    |  8700|
+|3     |  div0    |Divider__parameterized0 |   142|
+|4     |  div1    |Divider__parameterized1 |   138|
+|5     |  gs0     |GameState               | 15531|
+|6     |  pa      |partA                   |   188|
+|7     |    CR    |CodeReg                 |    16|
+|8     |    ktc   |KeyToCommand            |    69|
+|9     |    shift |ShiftReg                |    37|
+|10    |    str   |Strobe                  |    66|
++------+----------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:05 ; elapsed = 00:02:30 . Memory (MB): peak = 732.148 ; gain = 573.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:02:08 . Memory (MB): peak = 732.148 ; gain = 234.699
+Synthesis Optimization Complete : Time (s): cpu = 00:02:05 ; elapsed = 00:02:30 . Memory (MB): peak = 732.148 ; gain = 573.410
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2413 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 26 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:11 ; elapsed = 00:02:35 . Memory (MB): peak = 732.148 ; gain = 546.406
+# write_checkpoint -noxdef SnakeKB.dcp
+write_checkpoint: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 732.148 ; gain = 0.000
+# catch { report_utilization -file SnakeKB_utilization_synth.rpt -pb SnakeKB_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.736 . Memory (MB): peak = 732.148 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 31 22:02:24 2016...

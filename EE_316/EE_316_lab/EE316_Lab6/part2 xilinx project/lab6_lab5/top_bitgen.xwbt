@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5\top.ncd
+OUTFILE=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5\top.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=Z:\__SchoolWork\EE316_Lab6\part2 xilinx project\lab6_lab5
+LICENSE=ISE
+USER_INFO=210777625_1777494353_210565950_607

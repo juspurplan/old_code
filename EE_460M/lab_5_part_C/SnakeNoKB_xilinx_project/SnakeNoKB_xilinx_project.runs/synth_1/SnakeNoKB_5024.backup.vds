@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Mar 31 16:54:09 2016
+# Process ID: 6672
+# Log file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.runs/synth_1/SnakeNoKB.vds
+# Journal file: Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SnakeNoKB.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-2L
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.cache/wt [current_project]
+# set_property parent.project_path Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/VGADisplayController.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/GameState.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/Divider.v
+#   Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/SnakeNoKB.v
+# }
+# read_xdc Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc
+# set_property used_in_implementation false [get_files Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc]
+# catch { write_hwdef -file SnakeNoKB.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top SnakeNoKB -part xc7a35tcpg236-2L
+Command: synth_design -top SnakeNoKB -part xc7a35tcpg236-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2015.03' and will expire in -366 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:57 . Memory (MB): peak = 239.559 ; gain = 81.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SnakeNoKB' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/SnakeNoKB.v:2]
+INFO: [Synth 8-638] synthesizing module 'Divider' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/Divider.v:4]
+	Parameter DIVIDE_BY bound to: 2000000 - type: integer 
+	Parameter DURATION bound to: 1000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider' (1#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/Divider.v:4]
+INFO: [Synth 8-638] synthesizing module 'Divider__parameterized0' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/Divider.v:4]
+	Parameter DIVIDE_BY bound to: 4 - type: integer 
+	Parameter DURATION bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider__parameterized0' (1#1) [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/Divider.v:4]
+INFO: [Synth 8-638] synthesizing module 'GameState' [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/GameState.v:2]
+	Parameter SNAKE_MAX_LENGTH bound to: 10 - type: integer 
+	Parameter SNAKE_DEFAULT_LENGTH bound to: 4 - type: integer 
+	Parameter SNAKE_LENGTH_INC bound to: 1 - type: integer 
+	Parameter SNAKE_MAX_SPEED bound to: 5 - type: integer 
+	Parameter SNAKE_DEFAULT_SPEED bound to: 1 - type: integer 
+	Parameter SNAKE_SPEED_INC bound to: 1 - type: integer 
+	Parameter SNAKE_SEGMENT_SIZE bound to: 10 - type: integer 
+	Parameter SNAKE_START_X bound to: 100 - type: integer 
+	Parameter SNAKE_START_Y bound to: 100 - type: integer 
+	Parameter SNAKE_START_DIR bound to: 1 - type: integer 
+	Parameter TICKS_BEFORE_INC bound to: 300 - type: integer 
+ERROR: [Synth 8-3380] loop condition does not converge after 2000 iterations [Z:/__SchoolWork/EE_460M_lab/lab_5_part_C/SnakeNoKB_xilinx_project/SnakeNoKB_xilinx_project.srcs/sources_1/imports/lab_5_part_C/GameState.v:117]

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri May 08 12:42:50 2015
+# Process ID: 12416
+# Log file: Z:/__SchoolWork/lab7/lab7_xilinx_project/planAhead_run_2/planAhead.log
+# Journal file: Z:/__SchoolWork/lab7/lab7_xilinx_project/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Z:/__SchoolWork/lab7/lab7_xilinx_project/pa.fromNetlist.tcl

@@ -1,0 +1,3 @@
+vhdl SimUAid_Synthesis_Package "SimUAid_Synthesis_Package.vhd"
+vhdl work "../lab5_testbench.vhd"
+vhdl work "../Testbench_modified.vhd"

@@ -1,0 +1,26 @@
+Inventory Bottles 100
+Inventory Rattles 50
+Inventory Diapers 200
+
+Purchase Craig Bottles 4
+Purchase Craig Diapers 20
+
+Inventory Diapers 500
+Purchase Jack Diapers 200
+Purchase Jill Diapers 200
+Purchase Jack Diapers 2000
+Purchase Jill Diapers 2000
+
+Summarize
+
+Purchase Billy Diapers 10
+
+Purchase Sue Diapers 50
+Purchase Sue Bottles 10
+
+Purchase Craig Diapers 100
+
+
+Summarize
+Summarize
+Quit

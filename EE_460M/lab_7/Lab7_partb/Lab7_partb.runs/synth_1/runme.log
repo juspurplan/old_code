@@ -1,0 +1,700 @@
+
+*** Running vivado
+    with args -log Complete_MIPS.vds -m64 -mode batch -messageDb vivado.pb -source Complete_MIPS.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source Complete_MIPS.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir Z:/EE460M/Lab7_partb/Lab7_partb.cache/wt [current_project]
+# set_property parent.project_path Z:/EE460M/Lab7_partb/Lab7_partb.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/HexTo7Segment.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/DisplayFSM.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegmentDisplayController.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegTop.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/debouncer_singlepulser.v
+#   Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v
+# }
+# read_xdc Z:/EE460M/Lab7_partb/Lab7_partb.srcs/constrs_1/imports/lab7_partb_inclassstart/Basys3_Master.xdc
+# set_property used_in_implementation false [get_files Z:/EE460M/Lab7_partb/Lab7_partb.srcs/constrs_1/imports/lab7_partb_inclassstart/Basys3_Master.xdc]
+# catch { write_hwdef -file Complete_MIPS.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Complete_MIPS -part xc7a35tcpg236-1
+Command: synth_design -top Complete_MIPS -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2015.03' and will expire in -387 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 238.750 ; gain = 80.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Complete_MIPS' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:74]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Divider' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+	Parameter DIVIDE_BY bound to: 1000000 - type: integer 
+	Parameter DURATION bound to: 500000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider' (1#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+INFO: [Synth 8-638] synthesizing module 'MIPS' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:236]
+	Parameter add bound to: 6'b100000 
+	Parameter sub bound to: 6'b100010 
+	Parameter xor1 bound to: 6'b100110 
+	Parameter and1 bound to: 6'b100100 
+	Parameter or1 bound to: 6'b100101 
+	Parameter slt bound to: 6'b101010 
+	Parameter srl bound to: 6'b000010 
+	Parameter sll bound to: 6'b000000 
+	Parameter jr bound to: 6'b001000 
+	Parameter addi bound to: 6'b001000 
+	Parameter andi bound to: 6'b001100 
+	Parameter ori bound to: 6'b001101 
+	Parameter lw bound to: 6'b100011 
+	Parameter sw bound to: 6'b101011 
+	Parameter beq bound to: 6'b000100 
+	Parameter bne bound to: 6'b000101 
+	Parameter j bound to: 6'b000010 
+	Parameter jal bound to: 6'b000011 
+	Parameter lui bound to: 6'b001111 
+	Parameter mult bound to: 6'b011000 
+	Parameter mfhi bound to: 6'b010000 
+	Parameter mflo bound to: 6'b010010 
+	Parameter add8 bound to: 6'b101101 
+	Parameter rbit bound to: 6'b101111 
+	Parameter rev bound to: 6'b110000 
+	Parameter sadd bound to: 6'b110001 
+	Parameter ssub bound to: 6'b110010 
+	Parameter R bound to: 2'b00 
+	Parameter I bound to: 2'b01 
+	Parameter J bound to: 2'b10 
+INFO: [Synth 8-638] synthesizing module 'REG' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:180]
+INFO: [Synth 8-256] done synthesizing module 'REG' (2#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:180]
+INFO: [Synth 8-155] case statement is not full and has no default [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:357]
+INFO: [Synth 8-256] done synthesizing module 'MIPS' (3#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:236]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:128]
+INFO: [Synth 8-638] synthesizing module 'Memory' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:145]
+INFO: [Synth 8-3876] $readmem data file 'MIPS_Instructions_partb' is read successfully [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:159]
+INFO: [Synth 8-256] done synthesizing module 'Memory' (4#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:145]
+INFO: [Synth 8-638] synthesizing module 'Divider__parameterized0' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+	Parameter DIVIDE_BY bound to: 100 - type: integer 
+	Parameter DURATION bound to: 50 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider__parameterized0' (4#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+INFO: [Synth 8-638] synthesizing module 'SevenSegTop' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegTop.v:1]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SevenSegmentDisplayController' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegmentDisplayController.v:1]
+	Parameter CLOCK_FREQUENCY bound to: 100000000 - type: integer 
+	Parameter REFRESH_RATE bound to: 80 - type: integer 
+	Parameter DIVIDE_FREQUENCY bound to: 312500 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'HexTo7Segment' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/HexTo7Segment.v:1]
+INFO: [Synth 8-256] done synthesizing module 'HexTo7Segment' (5#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/HexTo7Segment.v:1]
+INFO: [Synth 8-638] synthesizing module 'Divider__parameterized1' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+	Parameter DIVIDE_BY bound to: 312500 - type: integer 
+	Parameter DURATION bound to: 156250 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Divider__parameterized1' (5#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/Divider.v:1]
+INFO: [Synth 8-638] synthesizing module 'DisplayFSM' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/DisplayFSM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DisplayFSM' (6#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/DisplayFSM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegmentDisplayController' (7#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegmentDisplayController.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegTop' (8#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/SevenSegTop.v:1]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/debouncer_singlepulser.v:30]
+INFO: [Synth 8-638] synthesizing module 'DFF' [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/debouncer_singlepulser.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DFF' (9#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/debouncer_singlepulser.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (10#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/debouncer_singlepulser.v:30]
+INFO: [Synth 8-256] done synthesizing module 'Complete_MIPS' (11#1) [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/sources_1/imports/lab7_partb_inclassstart/lab7_lights.v:74]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 272.953 ; gain = 114.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 272.953 ; gain = 114.715
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/constrs_1/imports/lab7_partb_inclassstart/Basys3_Master.xdc]
+Finished Parsing XDC File [Z:/EE460M/Lab7_partb/Lab7_partb.srcs/constrs_1/imports/lab7_partb_inclassstart/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 577.719 ; gain = 0.078
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "REG_reg[0]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[2]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[3]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[4]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[5]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[6]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[7]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[8]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[9]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[10]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[11]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[12]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[13]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[14]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[15]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[16]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[17]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[18]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[19]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[20]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[21]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[22]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[23]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[24]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[25]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[26]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[27]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[28]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[29]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[30]" won't be mapped to RAM because it is too sparse.
+ROM "REG_reg[31]" won't be mapped to RAM because it is too sparse.
+ROM "WE" won't be mapped to RAM because it is too sparse.
+ROM "alu_or_mem" won't be mapped to RAM because it is too sparse.
+ROM "nstate" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "npc" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "instr" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+INFO: [Synth 8-3969] The signal RAM_reg was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (7 address bits)* is shallow.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 43    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 35    
++---RAMs : 
+	               4K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	  20 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   7 Input      7 Bit        Muxes := 1     
+	  16 Input      7 Bit        Muxes := 4     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   6 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   3 Input      2 Bit        Muxes := 3     
+	  11 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 45    
+	   6 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	  19 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Complete_MIPS 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module REG 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 35    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 31    
+Module MIPS 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  20 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   6 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   3 Input      2 Bit        Muxes := 3     
+	  11 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   6 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	  19 Input      1 Bit        Muxes := 1     
+Module Memory 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	               4K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Divider__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module HexTo7Segment 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+Module Divider__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DisplayFSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module SevenSegmentDisplayController 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module SevenSegTop 
+Detailed RTL Component Info : 
+Module DFF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module Debouncer 
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "db_div/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "div/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+DSP Report: Generating DSP special_reg_HI0, operation Mode is: A*B.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: Generating DSP special_reg_HI0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: Generating DSP special_reg_HI0, operation Mode is: A*B.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: Generating DSP special_reg_HI0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+DSP Report: operator special_reg_HI0 is absorbed into DSP special_reg_HI0.
+ROM "display0/div0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "div/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "db_div/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 577.719 ; gain = 419.480
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+ Sort Area is null special_reg_HI0_0 : 0 0 : 2701 5044 : Used 1 time 0
+ Sort Area is null special_reg_HI0_0 : 0 1 : 2343 5044 : Used 1 time 0
+ Sort Area is null special_reg_HI0_3 : 0 0 : 2339 4365 : Used 1 time 0
+ Sort Area is null special_reg_HI0_3 : 0 1 : 2026 4365 : Used 1 time 0
+INFO: [Synth 8-3969] The signal MEM/RAM_reg was recognized as a RAM template for dedicated block RAM(s) but is better mapped onto distributed LUT RAM for the following reason(s): The *depth (7 address bits)* is shallow.
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM:
++--------------+-------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+-------------------------+
+|Module Name   | RTL Object  | PORT A (depth X width) | W | R | PORT B (depth X width) | W | R | OUT_REG | RAMB18 | RAMB36 | Hierarchical Name       | 
++--------------+-------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+-------------------------+
+|Complete_MIPS | MEM/RAM_reg | 128 X 32(READ_FIRST)   | W | R |                        |   |   | Port A  | 1      | 0      | Complete_MIPS/extram__2 | 
++--------------+-------------+------------------------+---+---+------------------------+---+---+---------+--------+--------+-------------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+DSP:
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | Neg Edge Clk | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MIPS        | A*B            | No           | 18     | 16     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|MIPS        | (PCIN>>17)+A*B | No           | 16     | 16     | 30     | 25     | 30     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|MIPS        | A*B            | No           | 18     | 18     | 48     | 25     | 48     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
+|MIPS        | (PCIN>>17)+A*B | No           | 18     | 16     | 31     | 25     | 47     | 0    | 0    | 1    | 1    | 1     | 0    | 0    | 
++------------+----------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table shows DSPs generated at current stage. Some DSP generation could be reversed due to later optimizations. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU/Register/REG_reg[1][3] )
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][31] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][30] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][29] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][28] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][27] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][26] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][25] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][24] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][23] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][22] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][21] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][20] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][19] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][18] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][17] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][16] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][15] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][14] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][13] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][12] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][11] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][10] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][9] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][8] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][7] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][6] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][5] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][4] ) is unused and will be removed from module Complete_MIPS.
+WARNING: [Synth 8-3332] Sequential element (\CPU/Register/REG_reg[1][3] ) is unused and will be removed from module Complete_MIPS.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 577.719 ; gain = 419.480
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 577.719 ; gain = 419.480
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 607.855 ; gain = 449.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 611.695 ; gain = 453.457
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \MEM/RAM_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \MEM/RAM_reg  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:05 ; elapsed = 00:01:12 . Memory (MB): peak = 646.172 ; gain = 487.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:13 . Memory (MB): peak = 646.172 ; gain = 487.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:13 . Memory (MB): peak = 646.172 ; gain = 487.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 646.172 ; gain = 487.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |   104|
+|3     |DSP48E1  |     4|
+|4     |LUT1     |   107|
+|5     |LUT2     |   230|
+|6     |LUT3     |   113|
+|7     |LUT4     |   145|
+|8     |LUT5     |   177|
+|9     |LUT6     |  1162|
+|10    |MUXF7    |   264|
+|11    |RAMB18E1 |     1|
+|12    |FDRE     |  1353|
+|13    |IBUF     |     8|
+|14    |OBUF     |    11|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+------------------------------+------+
+|      |Instance     |Module                        |Cells |
++------+-------------+------------------------------+------+
+|1     |top          |                              |  3681|
+|2     |  MEM        |Memory                        |     1|
+|3     |  CPU        |MIPS                          |  3209|
+|4     |    Register |REG                           |  2868|
+|5     |  SST        |SevenSegTop                   |   153|
+|6     |    display0 |SevenSegmentDisplayController |   153|
+|7     |      div0   |Divider__parameterized1       |   145|
+|8     |      fsm0   |DisplayFSM                    |     8|
+|9     |  btn0       |Debouncer                     |     3|
+|10    |    FF1      |DFF_15                        |     1|
+|11    |    FF2      |DFF_16                        |     1|
+|12    |    FF3      |DFF_17                        |     1|
+|13    |  btn1       |Debouncer_0                   |     3|
+|14    |    FF1      |DFF_12                        |     1|
+|15    |    FF2      |DFF_13                        |     1|
+|16    |    FF3      |DFF_14                        |     1|
+|17    |  db_div     |Divider                       |   141|
+|18    |  div        |Divider__parameterized0       |   141|
+|19    |  swtch0     |Debouncer_1                   |     3|
+|20    |    FF1      |DFF_9                         |     1|
+|21    |    FF2      |DFF_10                        |     1|
+|22    |    FF3      |DFF_11                        |     1|
+|23    |  swtch1     |Debouncer_2                   |     3|
+|24    |    FF1      |DFF_6                         |     1|
+|25    |    FF2      |DFF_7                         |     1|
+|26    |    FF3      |DFF_8                         |     1|
+|27    |  swtch2     |Debouncer_3                   |     3|
+|28    |    FF1      |DFF                           |     1|
+|29    |    FF2      |DFF_4                         |     1|
+|30    |    FF3      |DFF_5                         |     1|
++------+-------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:14 . Memory (MB): peak = 646.172 ; gain = 487.934
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:01:01 . Memory (MB): peak = 646.172 ; gain = 153.238
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:14 . Memory (MB): peak = 646.172 ; gain = 487.934
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'MEM/RAM_reg' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+INFO: [Netlist 29-17] Analyzing 117 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:13 . Memory (MB): peak = 646.172 ; gain = 461.109
+# write_checkpoint -noxdef Complete_MIPS.dcp
+# catch { report_utilization -file Complete_MIPS_utilization_synth.rpt -pb Complete_MIPS_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.161 . Memory (MB): peak = 646.172 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 18:45:51 2016...

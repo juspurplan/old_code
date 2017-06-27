@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Apr 21 15:45:07 2016
+# Process ID: 3532
+# Log file: Z:/EE460M/Lab7_partb/Lab7_partb.runs/impl_1/Complete_MIPS.vdi
+# Journal file: Z:/EE460M/Lab7_partb/Lab7_partb.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Complete_MIPS.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "Complete_MIPS.tcl" line 48)
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 15:46:12 2016...

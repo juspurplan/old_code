@@ -1,0 +1,70 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Thu Mar 31 22:04:33 2016
+| Host         : ECJ1-222-05 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file SnakeKB_control_sets_placed.rpt
+| Design       : SnakeKB
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    17 |
+| Minimum Number of register sites lost to control set restrictions |    36 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              46 |           24 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             148 |           38 |
+| Yes          | No                    | No                     |            3936 |         1096 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              34 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-------------------------+---------------------------+------------------+----------------+
+|      Clock Signal     |      Enable Signal      |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------------+-------------------------+---------------------------+------------------+----------------+
+|  n_0_B_out_reg[3]_i_2 |                         |                           |                2 |              2 |
+| ~PS2_clock_IBUF_BUFG  |                         | pa/shift/n_0_cnt[5]_i_1   |                1 |              5 |
+|  game_clock_BUFG      |                         |                           |                4 |              5 |
+|  pa/shift/en_change   |                         |                           |                3 |              8 |
+|  clock_IBUF_BUFG      |                         |                           |                5 |             11 |
+| ~PS2_clock_IBUF_BUFG  |                         |                           |               11 |             21 |
+|  clock_IBUF_BUFG      |                         | pa/ktc/O7                 |                6 |             21 |
+|  clock_IBUF_BUFG      |                         | pa/str/n_0_count[0]_i_1   |                6 |             24 |
+|  clock_IBUF_BUFG      |                         | div0/n_0_count[31]_i_1__0 |                8 |             32 |
+|  clock_IBUF_BUFG      |                         | div1/n_0_count[31]_i_1    |                8 |             32 |
+|  game_clock_BUFG      | gs0/n_0_length[31]_i_1  |                           |               10 |             32 |
+|  game_clock_BUFG      | gs0/n_0_speed[31]_i_1   |                           |               10 |             32 |
+|  game_clock_BUFG      | gs0/n_0_x[0][31]_i_1    |                           |               10 |             32 |
+|  game_clock_BUFG      | gs0/n_0_y[0][31]_i_1    |                           |                9 |             32 |
+|  n_0_B_out_reg[3]_i_2 |                         | disp0/n_0_hcount[0]_i_1   |                9 |             34 |
+|  n_0_B_out_reg[3]_i_2 | disp0/n_0_hcount[0]_i_1 | disp0/n_0_vcount[0]_i_1   |                9 |             34 |
+|  game_clock_BUFG      | gs0/n_0_x[43][31]_i_1   |                           |             1057 |           3808 |
++-----------------------+-------------------------+---------------------------+------------------+----------------+
+
+

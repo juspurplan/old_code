@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="3.0.0.49154" />
+        <ParsableNamespace AssemblyFileVersion="3.0.0.56744" FeatureSetName="Editor" MinimumParsableVersion="3.0.0.0" MinimumSemanticallyEquivalentVersion="3.0.0.0" Name="http://www.ni.com/PlatformFramework" Version="3.0.0.49152" />
+    </SourceModelFeatureSet>
+    <VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+        <Icon Id="2" ListViewIconCrop="0 0 50 50" xmlns="http://www.ni.com/PlatformFramework">
+            <IconPanel Height="[float]50" Id="3" Width="[float]50">
+                <IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" TemplateName="Gray">
+                    <Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" />
+                    <FileNameText FileNameText="[bool]True" Font="[SMFont]0,6," HorizontalAlignment="[HorizontalAlignment]Left" Id="7" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Probe Data(7ffbc7b2-4fa1-49fb-a132-febe947b76ef)" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" VerticalAlignment="[VerticalAlignment]Top" />
+                </IconTemplate>
+                <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="8" Margin="[SMThickness]3,3,3,3" />
+            </IconPanel>
+        </Icon>
+        <ConnectorPane Height="50" Id="9" ListViewHeight="30" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+            <ConnectorPaneTerminal />
+            <ConnectorPaneTerminal Hotspot="0 15" />
+            <ConnectorPaneTerminal Hotspot="0 25" />
+            <ConnectorPaneTerminal Hotspot="0 35" />
+            <ConnectorPaneTerminal Hotspot="0 45" />
+            <ConnectorPaneTerminal Hotspot="15 0" />
+            <ConnectorPaneTerminal Hotspot="25 0" />
+            <ConnectorPaneTerminal Hotspot="35 0" />
+            <ConnectorPaneTerminal Hotspot="50 5" />
+            <ConnectorPaneTerminal Hotspot="50 15" />
+            <ConnectorPaneTerminal Hotspot="50 25" />
+            <ConnectorPaneTerminal Hotspot="50 35" />
+            <ConnectorPaneTerminal Hotspot="50 45" />
+            <ConnectorPaneTerminal Hotspot="15 50" />
+            <ConnectorPaneTerminal Hotspot="25 50" />
+            <ConnectorPaneTerminal Hotspot="35 50" />
+        </ConnectorPane>
+        <MethodDocumentation xmlns="http://www.ni.com/PlatformFramework" />
+        <DiagramUnplacedItems Id="10" />
+        <FrontPanelUnplacedItems Id="11" />
+        <BlockDiagram Id="12" />
+        <CPFrontPanel Height="[float]1600" Id="13" Width="[float]2000" />
+        <DataItem DataType="Double[]" Id="9559" Name="Data">
+            <p.DefaultValue>
+                <Array Lengths="64">
+                    <Elements>0x3FEB29C59BA18408,0x3FEBC65B0709C279,0x3FED701F56C5B6EC,0x3FEEAB29A1F6744E,0x3FEFFFFFFFFFFFDE,0x3FEFFFFFFFFFFFDE,0x3FEFFFFFFFFFFFD8,0x3FEFFFFFFFFFFFD6,0x3FEFFFFFFFFFFFD6,0x3FEFFFFFFFFFFFD2,0x3FEFFFFFFFFFFFD2,0x3FEFFFFFFFFFFFD2,0x3FEFFFFFFFFFFFD2,0x3FEFFFFFFFFFFFD2,0x3FEFFFFFFFFFFFD4,0x3FEFFFFFFFFFFFCC,0x3FEFFFFFFFFFFFC4,0x3FEFFFFFFFFFFFC8,0x3FEFFFFFFFFFFFC8,0x3FEFFFFFFFFFFFCC,0x3FEFFFFFFFFFFFCE,0x3FEED82F62B0F77C,0x3FEDCC67617140F0,0x3FEC3296D94B1FB7,0x3FEBDF92997C8F01,0x3FEBE4D8EC68468C,0x3FEA1A0EC241B552,0x3FE9257BB9D4E06C,0x3FE7729EC5BFE1F4,0x3FE72EE56FCCA7FF,0x3FE6D0846FE51895,0x3FE4B4653716C648,0x3FE46D02490F9CCF,0x3FE2C4E60846DCF2,0x3FE205EE09C36A9C,0x3FE11168B9B50F75,0x3FE0C8EBDEB59146,0x3FE0A2799F3C7A0A,0x3FE011E697D2BD21,0x3FDE2CA3091468C4,0x3FDD3ACB96760308,0x3FDD3AF7021146FC,0x3FDBB4AD08D7F4B6,0x3FD99280DA3CC7A5,0x3FD8F1A89A93529A,0x3FD8AD28A745C6DE,0x3FD85774A675AC80,0x3FD67CB45AF1C7D9,0x3FD5053AAD5611DB,0x3FD366D7BC9C9F84,0x3FD270A98A6E62EB,0x3FD2322EFCBD4C78,0x3FD1A236E339AB3B,0x3FD0D582C30FD991,0x3FCD3ACDDD8BFEC4,0x3FCA8FB6E5459A30,0x3FC9BDB2D505462F,0x3FC975F04BE1FB11,0x3FC523D07D64D5C5,0x3FC431F9F9D2DB0D,0x3FC0F175A31D9B6C,0x3FC0AB3C1963EB31,0x3FBED1F9851A05E9,0x3FBE2B71328FAB71</Elements>
+                </Array>
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem DataType="String" Id="9560" Name="DisplayName">
+            <p.DefaultValue>Probe Data</p.DefaultValue>
+        </DataItem>
+        <DataItem DataType="String" Id="9561" Name="Source">
+            <p.DefaultValue>Table Probe</p.DefaultValue>
+        </DataItem>
+        <DataItem DataType="Timestamp" Id="9562" Name="Timestamp">
+            <p.DefaultValue>63614949723;13843811035345138894;Utc</p.DefaultValue>
+        </DataItem>
+    </VirtualInstrument>
+</SourceFile>

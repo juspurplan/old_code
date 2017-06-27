@@ -1,0 +1,177 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_lab\lab_3
+T_opt
+Z1 V:f]YCNce_HVH:YTHe;I]Z0
+Z2 04 16 4 work sorter_testbench fast 0
+Z3 =1-0023ae91ea75-56c24634-33e-1858
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.1;51
+Z7 dZ:\__SchoolWork\EE_460M_lab\lab_3
+T_opt1
+Z8 V2VN:@2z316:C=ORaPZXFO1
+Z9 04 5 4 work latch fast 0
+Z10 =1-0023ae91ea75-56c2445c-2-1274
+R4
+Z11 n@_opt1
+R6
+R7
+T_opt2
+Z12 V`J<iB3]OYl::AH>R;ZcJ=2
+Z13 04 6 4 work sorter fast 0
+Z14 =1-0023ae91ea75-56c24881-b3-1528
+R4
+Z15 n@_opt2
+R6
+R7
+vdivider
+Z16 !s100 1MA[ch813V8>Z@Wg9`o^23
+Z17 I>nIoFF=O4^B6GlNOknYZT3
+Z18 V=kI9AP`oTkl?2VXIZekkI3
+R7
+Z19 w1455740037
+Z20 8divider.v
+Z21 Fdivider.v
+L0 4
+Z22 OL;L;10.1;51
+r1
+31
+Z23 !s90 -reportprogress|300|-novopt|divider.v|
+Z24 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z25 !s108 1455741804.212000
+Z26 !s107 divider.v|
+!i10b 1
+!s85 0
+vFSM
+Z27 !s100 Hb0Q]a4ON7gN8lW2E;cW00
+Z28 IUIKMWj?[08_PAQnWf>za20
+Z29 V_:19_1^R<Z]:mEe>@LAa01
+R7
+Z30 w1455738793
+Z31 8FSM.v
+Z32 FFSM.v
+L0 2
+R22
+r1
+31
+Z33 !s90 -reportprogress|300|-novopt|FSM.v|
+R24
+Z34 n@f@s@m
+Z35 !s108 1455741804.641000
+Z36 !s107 FSM.v|
+!i10b 1
+!s85 0
+vlatch
+Z37 !s100 ckgec@aAJbnogQii<Zn1Z3
+Z38 IKMPhP1fB<IHE82Y2B3A3F1
+Z39 V8Sl3cVc`QgdM^EaPOO26Y0
+R7
+Z40 w1455577017
+Z41 8sorter.v
+Z42 Fsorter.v
+Z43 L0 155
+R22
+r1
+31
+Z44 !s108 1455577661.704000
+Z45 !s107 sorter.v|
+Z46 !s90 -reportprogress|300|-novopt|sorter.v|
+R24
+!i10b 1
+!s85 0
+vLEDController
+Z47 If`<jV]8CLI1OcL:aI46m`3
+Z48 V4@LO4Z7HhZL48eTEZ_AT:2
+R7
+Z49 w1455741796
+Z50 8LEDController.v
+Z51 FLEDController.v
+L0 2
+R22
+r1
+31
+Z52 !s90 -reportprogress|300|-novopt|LEDController.v|
+R24
+Z53 n@l@e@d@controller
+!i10b 1
+Z54 !s100 OzNTCS5Eho9MSFTY;gifO0
+!s85 0
+Z55 !s108 1455741804.851000
+Z56 !s107 LEDController.v|
+vsorter
+Z57 !s100 Bn[52;VJ[dQQ?LYbESc`Z3
+Z58 IeD^F[;:jIg;lcooAER6ZA1
+Z59 VY^O18Io0AWY6==OSCW>iN2
+R7
+R40
+R41
+R42
+L0 2
+R22
+r1
+31
+R44
+R45
+R46
+R24
+!i10b 1
+!s85 0
+vsorter_testbench
+Z60 I]PmXmloWE?B=mbZBVKPV?3
+Z61 VTLn1ZN91Y5g`2jI80R4CV3
+R7
+Z62 w1455572525
+Z63 8sorter_testbench.v
+Z64 Fsorter_testbench.v
+L0 2
+R22
+r1
+31
+R24
+Z65 !s100 :o@EemPO;[:jEHO3]E^1i2
+Z66 !s90 -reportprogress|300|sorter_testbench.v|
+Z67 !s108 1455572766.080000
+Z68 !s107 sorter_testbench.v|
+!i10b 1
+!s85 0
+vTimer
+Z69 !s100 YUmXLL;^WM2nN5cIMK>>`2
+Z70 IQzo=WA8[:R73E3CCTl6H13
+Z71 VAz^>lz7m:KQ395b;LjCaJ0
+R7
+Z72 w1455740505
+Z73 8Timer.v
+Z74 FTimer.v
+L0 2
+R22
+r1
+31
+Z75 !s90 -reportprogress|300|-novopt|Timer.v|
+R24
+Z76 n@timer
+Z77 !s108 1455741804.437000
+Z78 !s107 Timer.v|
+!i10b 1
+!s85 0
+vTrafficController
+!i10b 1
+Z79 !s100 bhGeHL^X9c51N_Mh1Ce<P2
+Z80 IPoBMnT5?emP?fl]6h6QRT0
+Z81 Vb_bSMB7z91R1`;GIMkK@J0
+R7
+Z82 w1455739687
+Z83 8TrafficController.v
+Z84 FTrafficController.v
+L0 47
+R22
+r1
+!s85 0
+31
+!s108 1455741805.059000
+!s107 TrafficController.v|
+Z85 !s90 -reportprogress|300|-novopt|TrafficController.v|
+R24
+Z86 n@traffic@controller

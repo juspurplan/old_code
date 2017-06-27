@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 d\\austin.utexas.edu\disk\engrstu\ECE\sg36384\Desktop\7
+T_opt
+V]mRUzmi=h<zzZFM>LVa3>1
+04 13 4 work Complete_MIPS fast 0
+=1-0023ae92360c-571804f2-11b-19d4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1;51
+vComplete_MIPS
+IEH=Y0h>40]Yf;GS=Pb_kY2
+VK=Cbk2>dgO[TCKD;6gK<`2
+Z1 d\\austin.utexas.edu\disk\engrstu\ECE\sg36384\Desktop\7
+Z2 w1461191916
+Z3 8lab7_lights.v
+Z4 Flab7_lights.v
+L0 74
+Z5 OL;L;10.1;51
+r1
+31
+Z6 !s108 1461191919.782000
+Z7 !s107 lab7_lights.v|
+Z8 !s90 -reportprogress|300|-novopt|lab7_lights.v|
+Z9 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@complete_@m@i@p@s
+!i10b 1
+!s100 CNmd;ZU_BHJW9h0n]CSa@2
+!s85 0
+vDivider
+!s100 F9SO>9LM_8D4CC6Kg]9H^3
+IWiaa<oj9mL7>Q[do<Yok80
+V<@@3KiUKXInR;49fZ3:IB3
+R1
+w1461188346
+8Divider.v
+FDivider.v
+L0 1
+R5
+r1
+31
+!s90 -reportprogress|300|-novopt|Divider.v|
+R9
+n@divider
+!s108 1461191919.568000
+!s107 Divider.v|
+!i10b 1
+!s85 0
+vMemory
+I^RWlHmoX7JV50cbG6CT@32
+VDUY@J`kHPWO7TBFj1X]7m1
+R1
+R2
+R3
+R4
+L0 103
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@memory
+!i10b 1
+!s100 HK`T<FHz69VLQYZm?12U;3
+!s85 0
+vMIPS
+INhW7U>z8Z^NQabCYQ?dHU1
+VPlijz8IJc42:[AG8N837m0
+R1
+R2
+R3
+R4
+L0 182
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@m@i@p@s
+!i10b 1
+!s100 [db>`LTG[U^GDHjJNaJ4i2
+!s85 0
+vREG
+I02<leX7M4d:JWm_5[3eKU1
+VkBhzij<>MQd8ZGX;nTgab2
+R1
+R2
+R3
+R4
+L0 138
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@r@e@g
+!i10b 1
+!s100 oS`eG_JA@V2251zAHWiC:3
+!s85 0

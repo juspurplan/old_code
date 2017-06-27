@@ -1,0 +1,15 @@
+.ORIG x3000
+LDW R2, Zero
+LDW R0, M0
+LDW R1, M1
+Loop BRz Done 
+ADD  R2, R2, R0
+ADD  R1, R1, #-1
+BR Loop
+Done STW  R2, Res
+HALT
+Res .FILL x0000
+Zero .FILL x0000
+M0  .FILL x0007
+M1  .FILL x0003
+.END

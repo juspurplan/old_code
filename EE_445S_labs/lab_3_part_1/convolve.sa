@@ -1,0 +1,96 @@
+;******************************************************
+;  File: convolve.sa
+;   By: S.A. Tretter
+;   Date: 03/06/02
+;  
+;   This is a C callable assembly function for computing
+;   one convolution iteration. It assumes the FIR filter
+;   has an even number of taps to take advantage of the
+;   two multipliers in the C6000 CPU.  If the filter
+;   has an even number or taps, increase the number by
+;   one and add a dummy tap with value 0. The circular
+;   buffering hardware of the C6000 is used. The function
+;   prototype is:
+;
+;    float convolve( float x[], float h[], int Nh, 
+;       int Nblock, int newest);
+;
+;       x[]     circular input sample buffer
+;       h[]     FIR filter coefficients
+;       Nh      number of filter taps
+;       Nblock  circular buffer size in bytes is
+;               2^{Nblock+1} and in words is 2^{Nblock-1}
+;       newest  index pointing to newest sample in buffer
+;
+;    According to the TI C Compiler conventions, the 
+;    arguments on entry are found in the following
+;    registers:
+;
+;       &x[0]   A4
+;       &h[0]   B4
+;       Nh      A6
+;       Nblock  B6
+;       newest  A8
+;
+;    WARNING:  The C calling function must align the
+;     circular buffer, x[], on a boundary that is a
+;     multiple of the buffer size in bytes, that is, a
+;     multiple of BUF_LEN = 2^{Nblock+1} bytes.  This can 
+;     be done by a statement in the C program of the form
+;
+;      #pragma DATA_ALIGN(x, BUF_LEN)
+;
+;     The array x[] must be a global array according to 
+;     the TI C Compiler manual.
+;********************************************************
+
+          .global _convolve
+_convolve .cproc x_addr, h_addr, Nh, Nblock, newest
+          .reg  sum1, sum2, sum
+          .reg  prod1, prod2, x_value1, x_value2
+          .reg  h_value1, h_value2
+          .circ x_addr/b4  ; Added by Alex Olson (former TA) [This line is NOT in the textbook]
+
+;  Compute addressof x[newest] and put in x_addr
+;  Note:  The instruction ADDAW shifts the second
+;        argument, newest, 2 bits left before 
+;        adding it to the first argument.
+
+     ADDAW   x_addr, newest, x_addr ; &x[newest]
+
+;  Assume the assembly optimizer has chosen B4 for
+;  circular addressing.
+
+;  Set Address Mode Register (AMR) to use BK0 and B4 for
+;   circular addressing
+
+     SHL Nblock, 16, Nblock ; Shift Nblock to BK0 field
+     set Nblock, 8,8, Nblock; Set mode circular, BK0, B4
+     MVC Nblock, AMR        ; load mode into AMR
+
+;  Clear convolution sum registers
+
+     ZERO  sum1
+     ZERO  sum2
+
+;  Now compute the convolution sum.
+
+loop:   .trip 4, 250  ; assume between 8 and 500 taps
+     LDW *x_addr--, x_value1 ; x[newest-k] -> x_value1
+     LDW *h_addr++, h_value1 ; h[k] -> h_value1
+     MPYSP  x_value1, h_value1, prod1 ; h[k]*x[n-k]
+     ADDSP prod1, sum1, sum1 ; sum of even-k terms
+
+     LDW *x_addr--, x_value2 ; x[newest-k-1] -> x_value2
+     LDW *h_addr++, h_value2 ; h[k+1] -> h_value2
+     MPYSP  x_value2, h_value2, prod2 ; h[k+1]*x[n-k-1]
+     ADDSP prod2, sum2, sum2 ; sum of odd-k terms
+
+ [Nh] SUB Nh, 2, Nh  ; Decrement count by 2 taps
+ [Nh] B  loop   ; Continue until all pairs computed
+
+      ADDSP  sum1, sum2, sum
+
+      .return sum  ; By C convention, put sum in A4
+      .endproc
+     

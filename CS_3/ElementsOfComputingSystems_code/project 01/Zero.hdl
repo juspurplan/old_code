@@ -1,0 +1,7 @@
+CHIP Zero {
+    IN in;
+    OUT out;
+
+    PARTS:
+		Xor(a=in, b=in, out=out);
+}

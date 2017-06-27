@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-2L" LaunchTime="1459479568">
+  <File Type="RDS-DCP" Name="SnakeKB.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="SnakeKB_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="SnakeKB_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="SnakeKB.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="SnakeKB.vds"/>
+  <File Type="RDS-UTIL" Name="SnakeKB_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SnakeKB_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SnakeKB_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="SnakeKB.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/Divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Divider.v"/>
+        <Attr Name="ImportTime" Val="1457001885"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/HexTo7Segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HexTo7Segment.v"/>
+        <Attr Name="ImportTime" Val="1459474036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/DisplayFSM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DisplayFSM.v"/>
+        <Attr Name="ImportTime" Val="1459382156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/ShiftReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ShiftReg.v"/>
+        <Attr Name="ImportTime" Val="1459454052"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/ChangeCode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ChangeCode.v"/>
+        <Attr Name="ImportTime" Val="1459472802"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/Strobe.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Strobe.v"/>
+        <Attr Name="ImportTime" Val="1459465868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/SevenSegmentDisplayController.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SevenSegmentDisplayController.v"/>
+        <Attr Name="ImportTime" Val="1459473352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/CodeReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CodeReg.v"/>
+        <Attr Name="ImportTime" Val="1459456594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/KeyToCommand.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../KeyToCommand.v"/>
+        <Attr Name="ImportTime" Val="1459467772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/VGADisplayController.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VGADisplayController.v"/>
+        <Attr Name="ImportTime" Val="1459381533"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/GameState.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../GameState.v"/>
+        <Attr Name="ImportTime" Val="1459474521"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/partA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../partA.v"/>
+        <Attr Name="ImportTime" Val="1459475807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_5_part_C_with_KB/SnakeKB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SnakeKB.v"/>
+        <Attr Name="ImportTime" Val="1459476042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SnakeKB"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/EE_460M_lab/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1454557791"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

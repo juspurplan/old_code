@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\lab7_testbench
+vComplete_MIPS
+!i10b 1
+!s100 3TZSQne=S^80?_?d_W:jN3
+I9CJLQ^Nb;HS[PooGBM8Al1
+Z1 VI27k6zgJzgYXDAO6O>ZmR0
+Z2 dE:\lab7_testbench
+Z3 w1461284758
+Z4 8lab7.v
+Z5 Flab7.v
+L0 90
+Z6 OL;L;10.1;51
+r1
+!s85 0
+31
+Z7 !s108 1461284762.242000
+Z8 !s107 lab7.v|
+Z9 !s90 -reportprogress|300|-novopt|lab7.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 n@complete_@m@i@p@s
+vMemory
+!i10b 1
+!s100 0a8nF>W3aP8V;N:TReZLj1
+I9kXBzidG<a0O^Bn2zPEJ;0
+Z12 VDUY@J`kHPWO7TBFj1X]7m1
+R2
+R3
+R4
+R5
+L0 110
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+R10
+Z13 n@memory
+vMIPS
+!i10b 1
+!s100 >B<n7MCX@E4RcP:4]NV:f2
+IS<RKXzD:3R`e9F5WTmob81
+Z14 VTDZY8ej6jWhf=T5NoYXIQ3
+R2
+R3
+R4
+R5
+L0 191
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+R10
+Z15 n@m@i@p@s
+vMIPS_Testbench
+!i10b 1
+!s100 AY^bcT:?SzLY3]Z:YWWi53
+Ib7;4554[T6cJH]X;Fg<z41
+Z16 VKQoCnY2_lO4[=FJ4ERC472
+R2
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+R10
+Z17 n@m@i@p@s_@testbench
+vREG
+!i10b 1
+!s100 [;e8;iK<cHOD9bOEHF<EF3
+I^Y<>dGKBDMA8ohiHe9UEH3
+Z18 V[1>Rj_2Z@>TXlaBT472RX1
+R2
+R3
+R4
+R5
+L0 149
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+R10
+Z19 n@r@e@g

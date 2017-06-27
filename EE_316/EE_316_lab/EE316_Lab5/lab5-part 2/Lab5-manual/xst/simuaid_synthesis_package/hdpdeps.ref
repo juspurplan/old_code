@@ -1,0 +1,281 @@
+V3 117
+FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" 2004/05/03.10:31:46 P.20131013
+PH SimUAid_synthesis_Package/SimuAid_synthesis_pack 1429643743 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 CD and2 CD and3 CD and4 CD and5 CD or2 CD or3 \
+      CD or4 CD or5 CD nand2 CD nand3 CD nand4 CD nand5 CD nor2 CD nor3 CD nor4 CD nor5 \
+      CD xor2 CD xnor2 CD inverter CD Dflipflop CD JKflipflop CD Counter \
+      CD LoadableCounter CD nbitRegister CD NBitAdder CD NWideMux CD ShiftRegLS \
+      CD ShiftRegRS CD ShiftRegBidir CD NBitTristate CD complementer CD FullAdder \
+      CD Decoder_2_to_4 CD Decoder_3_to_8 CD MUX_2_to_1 CD MUX_4_to_1 CD MUX_8_to_1 \
+      CD tristateBuf
+PB SimUAid_Synthesis_Package/SimUAid_synthesis_pack 1429643744 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PH SimUAid_synthesis_Package/SimuAid_synthesis_pack 1429643743
+EN SimUAid_Synthesis_Package/and2 1429643745 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/and2/behavior 1429643746 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/and2 1429643745
+EN SimUAid_Synthesis_Package/and3 1429643747 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/and3/behavior 1429643748 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/and3 1429643747
+EN SimUAid_Synthesis_Package/and4 1429643749 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/and4/behavior 1429643750 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/and4 1429643749
+EN SimUAid_Synthesis_Package/and5 1429643751 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/and5/behavior 1429643752 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/and5 1429643751
+EN SimUAid_Synthesis_Package/or2 1429643753 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/or2/behavior 1429643754 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/or2 1429643753
+EN SimUAid_Synthesis_Package/or3 1429643755 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/or3/behavior 1429643756 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/or3 1429643755
+EN SimUAid_Synthesis_Package/or4 1429643757 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/or4/behavior 1429643758 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/or4 1429643757
+EN SimUAid_Synthesis_Package/or5 1429643759 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/or5/behavior 1429643760 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/or5 1429643759
+EN SimUAid_Synthesis_Package/nand2 1429643761 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nand2/behavior 1429643762 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nand2 1429643761
+EN SimUAid_Synthesis_Package/nand3 1429643763 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nand3/behavior 1429643764 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nand3 1429643763
+EN SimUAid_Synthesis_Package/nand4 1429643765 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nand4/behavior 1429643766 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nand4 1429643765
+EN SimUAid_Synthesis_Package/nand5 1429643767 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nand5/behavior 1429643768 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nand5 1429643767
+EN SimUAid_Synthesis_Package/nor2 1429643769 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nor2/behavior 1429643770 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nor2 1429643769
+EN SimUAid_Synthesis_Package/nor3 1429643771 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nor3/behavior 1429643772 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nor3 1429643771
+EN SimUAid_Synthesis_Package/nor4 1429643773 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nor4/behavior 1429643774 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nor4 1429643773
+EN SimUAid_Synthesis_Package/nor5 1429643775 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nor5/behavior 1429643776 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nor5 1429643775
+EN SimUAid_Synthesis_Package/xor2 1429643777 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/xor2/behavior 1429643778 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/xor2 1429643777
+EN SimUAid_Synthesis_Package/xnor2 1429643779 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/xnor2/behavior 1429643780 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/xnor2 1429643779
+EN SimUAid_Synthesis_Package/inverter 1429643781 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/inverter/behavior 1429643782 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/inverter 1429643781
+EN SimUAid_Synthesis_Package/Dflipflop 1429643783 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Dflipflop/behavior 1429643784 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Dflipflop 1429643783
+EN SimUAid_Synthesis_Package/JKflipflop 1429643785 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/JKflipflop/behavior 1429643786 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/JKflipflop 1429643785
+EN SimUAid_Synthesis_Package/Counter 1429643787 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Counter/behavior 1429643788 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Counter 1429643787
+EN SimUAid_Synthesis_Package/LoadableCounter 1429643789 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/LoadableCounter/behavior 1429643790 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/LoadableCounter 1429643789
+EN SimUAid_Synthesis_Package/nbitRegister 1429643791 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/nbitRegister/behavior 1429643792 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/nbitRegister 1429643791
+EN SimUAid_Synthesis_Package/NBitAdder 1429643793 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/NBitAdder/behavior 1429643794 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/NBitAdder 1429643793
+EN SimUAid_Synthesis_Package/NWideMux 1429643795 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/NWideMux/behavior 1429643796 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/NWideMux 1429643795
+EN SimUAid_Synthesis_Package/ShiftRegLS 1429643797 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/ShiftRegLS/behavior 1429643798 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/ShiftRegLS 1429643797
+EN SimUAid_Synthesis_Package/ShiftRegRS 1429643799 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/ShiftRegRS/behavior 1429643800 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/ShiftRegRS 1429643799
+EN SimUAid_Synthesis_Package/ShiftRegBidir 1429643801 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/ShiftRegBidir/behavior 1429643802 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/ShiftRegBidir 1429643801
+EN SimUAid_Synthesis_Package/NBitTristate 1429643803 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/NBitTristate/behavior 1429643804 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/NBitTristate 1429643803
+EN SimUAid_Synthesis_Package/Complementer 1429643805 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Complementer/behavior 1429643806 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Complementer 1429643805
+EN SimUAid_Synthesis_Package/FullAdder 1429643807 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/FullAdder/behavior 1429643808 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/FullAdder 1429643807
+EN SimUAid_Synthesis_Package/Decoder_2_to_4 1429643809 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Decoder_2_to_4/behavior 1429643810 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Decoder_2_to_4 1429643809
+EN SimUAid_Synthesis_Package/Decoder_3_to_8 1429643811 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Decoder_3_to_8/behavior 1429643812 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Decoder_3_to_8 1429643811
+EN SimUAid_Synthesis_Package/MUX_2_to_1 1429643813 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/MUX_2_to_1/behavior 1429643814 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/MUX_2_to_1 1429643813
+EN SimUAid_Synthesis_Package/MUX_4_to_1 1429643815 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/MUX_4_to_1/behavior 1429643816 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/MUX_4_to_1 1429643815
+EN SimUAid_Synthesis_Package/MUX_8_to_1 1429643817 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/MUX_8_to_1/behavior 1429643818 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/MUX_8_to_1 1429643817
+EN SimUAid_Synthesis_Package/Tristatebuf 1429643819 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR SimUAid_Synthesis_Package/Tristatebuf/behavior 1429643820 \
+      FL "//austin.utexas.edu/disk/engrstu/ece/ajt2459/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/SimUAid_Synthesis_Package.vhd" \
+      EN SimUAid_Synthesis_Package/Tristatebuf 1429643819

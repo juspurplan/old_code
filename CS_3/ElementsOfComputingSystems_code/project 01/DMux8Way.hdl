@@ -1,0 +1,36 @@
+// This file is part of the materials accompanying the book 
+// "The Elements of Computing Systems" by Nisan and Schocken, 
+// MIT Press. Book site: www.idc.ac.il/tecs
+// File name: projects/01/DMux8Way.hdl
+
+/**
+ * 8-way demultiplexor.  
+ * {a,b,c,d,e,f,g,h} = {in,0,0,0,0,0,0,0} if sel==000
+ *                     {0,in,0,0,0,0,0,0} if sel==001
+ *                     etc.
+ *                     {0,0,0,0,0,0,0,in} if sel==111
+ */
+
+
+CHIP DMux8Way {
+    IN in, sel[3];
+    OUT a, b, c, d, e, f, g, h;
+
+    PARTS:
+    // Put your code here.
+	//Zero(in=in, out = zero);
+	//DMux4Way(in = in, sel[0]=sel[1], sel[1]=sel[2], a=ta, b=tb, c=tc, d=td );
+	//DMux4Way(in = in, sel[0]=sel[1], sel[1]=sel[2], a=te, b=tf, c=tg, d=th );
+	//Mux(a =ta , b = zero, sel=sel[0], out=a);
+	//Mux(a =tb, b = zero, sel=sel[0], out=b);
+	//Mux(a =tc , b = zero, sel=sel[0], out=c);
+	//Mux(a =td , b = zero, sel=sel[0], out=d);
+	//Mux(a=zero, b=te, sel=sel[0], out = e);
+	///Mux(a=zero, b=tf, sel=sel[0], out = f);
+	//Mux(a=zero, b=tg, sel=sel[0], out = g);
+	//Mux(a=zero, b=th, sel=sel[0], out = h);
+	
+	DMux(in=in, sel = sel[2], a = first , b = second);
+	DMux4Way(in = first, sel[0]=sel[0], sel[1]= sel[1], a= a, b=b, c=c, d=d);
+	DMux4Way(in = second, sel[0]=sel[0], sel[1]= sel[1], a= e, b=f, c=g, d=h);
+}

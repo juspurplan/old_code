@@ -1,0 +1,2 @@
+vhdl SimUAid_Synthesis_Package "SimUAid_Synthesis_Package.vhd"
+vhdl work "EE316_lab2_circuit_vhdl.vhd"

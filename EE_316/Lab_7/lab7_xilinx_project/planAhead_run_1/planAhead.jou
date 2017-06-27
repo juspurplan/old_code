@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri May 08 12:19:42 2015
+# Process ID: 10964
+# Log file: Z:/__SchoolWork/lab7/lab7_xilinx_project/planAhead_run_1/planAhead.log
+# Journal file: Z:/__SchoolWork/lab7/lab7_xilinx_project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source Z:/__SchoolWork/lab7/lab7_xilinx_project/pa.fromNetlist.tcl
+startgroup
+set_property package_pin H13 [get_ports {bus_in[3]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {bus_in[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {bus_in[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {bus_in[0]}]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports clock]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports start]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  {product[7]}]]
+startgroup
+set_property package_pin P11 [get_ports {product[7]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {product[6]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {product[5]}]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports {product[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {product[3]}]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports {product[2]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {product[1]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {product[0]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports done]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports overflow]
+endgroup
+save_constraints

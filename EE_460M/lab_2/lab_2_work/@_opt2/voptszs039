@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_lab\lab_2
+T_opt
+ViCjm;4Xi>3YXb49BHjhXb0
+04 18 4 work excess3_behavioral fast 0
+=1-00155d7398ba-56bbf7ec-142-fac
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.1;51
+Z3 dZ:\__SchoolWork\EE_460M_lab\lab_2
+T_opt1
+VFM<3Nmzii[lR:M@nDWahA2
+04 16 4 work excess3_dataflow fast 0
+=1-00155d7398ba-56bbf6a1-17e-750
+R1
+n@_opt1
+R2
+R3
+T_opt2
+VF0N[o[GI8@6ACJ0TT4oSc3
+04 18 4 work excess3_structural fast 0
+=1-00155d7398ba-56bc08ae-35c-11c0
+R1
+n@_opt2
+R2
+vDFF
+ITUJfGB8UJ=9DmWPL>fngE0
+VD`VURBWcha7Nf`H=h[:1L3
+R3
+Z4 w1455163559
+Z5 8excess3_structural.v
+Z6 Fexcess3_structural.v
+L0 57
+Z7 OE;L;10.1;51
+r1
+31
+Z8 !s108 1455163566.563000
+Z9 !s107 excess3_structural.v|
+Z10 !s90 -reportprogress|300|excess3_structural.v|
+Z11 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@d@f@f
+!s100 P^UJ:X2Xz?BX;lY9L25O<1
+!i10b 1
+!s85 0
+vexcess3_behavioral
+I1<_=i24Fdc8VdJoBTWk6Y3
+V^P><AeT7O4EH]S=JRIW^o3
+R3
+w1455159259
+8excess3_behavioral.v
+Fexcess3_behavioral.v
+L0 2
+R7
+r1
+31
+R11
+!s90 -reportprogress|300|excess3_behavioral.v|
+!s100 Y24z?9:H<ZSGfEPKQF9@a3
+!s108 1455159275.978000
+!s107 excess3_behavioral.v|
+!i10b 1
+!s85 0
+vexcess3_dataflow
+I3Kd^H3MlCU?]K?7WfgmV72
+VWU9j^k;cBezBAb>Rb2a@X2
+R3
+w1455158921
+8excess3_dataflow.v
+Fexcess3_dataflow.v
+L0 3
+R7
+r1
+31
+R11
+!s90 -reportprogress|300|excess3_dataflow.v|
+!s100 K2B3nX;dg7bLRQCBWB[Zf3
+!s108 1455158945.101000
+!s107 excess3_dataflow.v|
+!i10b 1
+!s85 0
+vexcess3_structural
+I2PfNa4NJUYWg4QTGgM=720
+VF?dE@IRKKeM<9=ohd:bP]1
+R3
+R4
+R5
+R6
+L0 2
+R7
+r1
+31
+R8
+R9
+R10
+R11
+!i10b 1
+!s100 QkgnzJnFo^aDZMlCH_3d>0
+!s85 0
+vhalf_adder
+Id<;aHJ`Wc0J33?MY@>]GC1
+Vm41F[z6R`<=D:fghJIjOR0
+R3
+w1455162854
+R5
+R6
+L0 77
+R7
+r1
+31
+R9
+R10
+R11
+!s108 1455162880.159000
+!s100 l6fG[h2zF:0;a_Xf8kP;H0
+!i10b 1
+!s85 0

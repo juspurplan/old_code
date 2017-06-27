@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s200-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s200-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s1000-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s1000-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s1000-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s1000-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s1000-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+xst -intstyle ise -ifn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.xst" -ofn "Z:/__SchoolWork/EE316_Lab5/lab5-part 2/Lab5-manual/lab5_manual.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s200-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5_manual.ucf -p xc3s200-ft256-5 "lab5_manual.ngc" lab5_manual.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o lab5_manual_map.ncd lab5_manual.ngd lab5_manual.pcf 
+par -w -intstyle ise -ol high -t 1 lab5_manual_map.ncd lab5_manual.ncd lab5_manual.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lab5_manual.twx lab5_manual.ncd -o lab5_manual.twr lab5_manual.pcf -ucf lab5_manual.ucf 
+bitgen -intstyle ise -f lab5_manual.ut lab5_manual.ncd 

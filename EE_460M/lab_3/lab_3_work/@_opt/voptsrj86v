@@ -1,0 +1,74 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_lab\lab_3
+T_opt
+V:f]YCNce_HVH:YTHe;I]Z0
+04 16 4 work sorter_testbench fast 0
+=1-0023ae91ea75-56c24634-33e-1858
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1;51
+T_opt1
+V2VN:@2z316:C=ORaPZXFO1
+04 5 4 work latch fast 0
+=1-0023ae91ea75-56c2445c-2-1274
+R1
+n@_opt1
+R2
+Z3 dZ:\__SchoolWork\EE_460M_lab\lab_3
+vlatch
+IE54PSYfI@4eQI<VWJ0I]z3
+V8Sl3cVc`QgdM^EaPOO26Y0
+R3
+Z4 w1455572048
+Z5 8sorter.v
+Z6 Fsorter.v
+L0 144
+Z7 OL;L;10.1;51
+r1
+31
+Z8 !s108 1455572532.123000
+Z9 !s107 sorter.v|
+Z10 !s90 -reportprogress|300|sorter.v|
+Z11 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 jWD1WDFCS]Z@MBFKS[K1H1
+!i10b 1
+!s85 0
+vsorter
+I6Dd7D^f8XXjDk3DhVclC:0
+VY^O18Io0AWY6==OSCW>iN2
+R3
+R4
+R5
+R6
+L0 2
+R7
+r1
+31
+R8
+R9
+R10
+R11
+!s100 =3:[zN5CZT2]jQQ4BJeEI0
+!i10b 1
+!s85 0
+vsorter_testbench
+I]PmXmloWE?B=mbZBVKPV?3
+VTLn1ZN91Y5g`2jI80R4CV3
+R3
+w1455572525
+8sorter_testbench.v
+Fsorter_testbench.v
+L0 2
+R7
+r1
+31
+R11
+!s90 -reportprogress|300|sorter_testbench.v|
+!i10b 1
+!s100 :o@EemPO;[:jEHO3]E^1i2
+!s85 0
+!s108 1455572532.464000
+!s107 sorter_testbench.v|

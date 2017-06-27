@@ -1,0 +1,9 @@
+force clock 0 0, 1 50 -repeat 100
+force reset 0 0, 1 5, 0, 100
+
+force bus_in 1001 0, 0111 100, 0100 200 
+force start 1 0, 0 100
+
+
+
+run 2000

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="EE316_lab3a.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="EE316_lab2_circuit_vhdl.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="EE316_lab2_circuit_vhdl.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="EE316_lab2_circuit_vhdl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="EE316_lab2_circuit_vhdl.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="EE316_lab2_circuit_vhdl.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="EE316_lab2_circuit_vhdl.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="EE316_lab2_circuit_vhdl.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="EE316_lab2_circuit_vhdl.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="EE316_lab2_circuit_vhdl.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EE316_lab2_circuit_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="EE316_lab2_circuit_vhdl.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="EE316_lab2_circuit_vhdl.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="EE316_lab2_circuit_vhdl.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="EE316_lab2_circuit_vhdl.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="EE316_lab2_circuit_vhdl.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="EE316_lab2_circuit_vhdl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="EE316_lab2_circuit_vhdl_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="EE316_lab2_circuit_vhdl_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="EE316_lab2_circuit_vhdl_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="EE316_lab2_circuit_vhdl_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="EE316_lab2_circuit_vhdl_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="EE316_lab2_circuit_vhdl_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="EE316_lab2_circuit_vhdl_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="EE316_lab2_circuit_vhdl_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="EE316_lab2_circuit_vhdl_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EE316_lab2_circuit_vhdl_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="EE316_lab2_circuit_vhdl_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ee316_lab2_circuit_vhdl.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ee316_lab2_circuit_vhdl.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ee316_lab2_circuit_vhdl.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1424809188" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1424809187">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424809188" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2970749991856372818" xil_pn:start_ts="1424809188">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810253" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8259182317121780678" xil_pn:start_ts="1424810253">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424809188" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1424809188">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424809188" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8937707931808049766" xil_pn:start_ts="1424809188">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810253" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321282947067" xil_pn:start_ts="1424810253">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810253" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7998839483406269188" xil_pn:start_ts="1424810253">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816502" xil_pn:in_ck="-7816673709090717405" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="6391507251973430372" xil_pn:start_ts="1424816482">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.lso"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ngc"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ngr"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.prj"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.stx"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.syr"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.xst"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_vhdl.prj"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1424810030" xil_pn:in_ck="3720246739409430479" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-584793519154623345" xil_pn:start_ts="1424810030">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816509" xil_pn:in_ck="-6790188273710326600" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3092308627865887070" xil_pn:start_ts="1424816502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.bld"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ngd"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816516" xil_pn:in_ck="-9150402693366997991" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1502724157172790344" xil_pn:start_ts="1424816509">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.pcf"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_map.map"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_map.mrp"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_map.ncd"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_map.ngm"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_map.xrpt"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_summary.xml"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816537" xil_pn:in_ck="-8537128999600163694" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="5592077876867041805" xil_pn:start_ts="1424816516">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ncd"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.pad"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.par"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ptwx"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.unroutes"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.xpi"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_pad.csv"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_pad.txt"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816553" xil_pn:in_ck="3720246739409422854" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1424816537">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="ee316_lab2_circuit_vhdl.bgn"/>
+      <outfile xil_pn:name="ee316_lab2_circuit_vhdl.bit"/>
+      <outfile xil_pn:name="ee316_lab2_circuit_vhdl.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816553" xil_pn:in_ck="-128446343302159344" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="-6864680952955714571" xil_pn:start_ts="1424816553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424816537" xil_pn:in_ck="7249995521960799765" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1424816533">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.twr"/>
+      <outfile xil_pn:name="EE316_lab2_circuit_vhdl.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

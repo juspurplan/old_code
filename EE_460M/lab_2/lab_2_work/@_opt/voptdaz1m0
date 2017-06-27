@@ -1,0 +1,175 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\__SchoolWork\EE_460M_lab\lab_2
+T_opt
+VUGRjl@fn6YUmLhKfS`=T=3
+04 18 4 work excess3_behavioral fast 0
+=1-00155d7398be-56bc4190-2bb-c9c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.1;51
+T_opt1
+V=XoHj7d>aQT[3NWNTV>2L1
+04 17 4 work BCDCounter_2digit fast 0
+=1-00155d7398be-56bc3a1e-2-26c
+R1
+n@_opt1
+R2
+Z3 dZ:\__SchoolWork\EE_460M_lab\lab_2
+T_opt2
+VF0N[o[GI8@6ACJ0TT4oSc3
+04 18 4 work excess3_structural fast 0
+=1-00155d7398ba-56bc08ae-35c-11c0
+R1
+n@_opt2
+R2
+R3
+vBCDCounter
+I`ceoGMK^8YfP9j@2bnIMU3
+V9_`95D[^8jJGk=VJlAN`_2
+R3
+w1455173940
+8BCDCounter.v
+FBCDCounter.v
+L0 2
+Z4 OE;L;10.1;51
+r1
+31
+Z5 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@b@c@d@counter
+!s100 @N[mIEom1AhIG;o8BI31I0
+!s90 -reportprogress|300|BCDCounter.v|
+!s108 1455176221.612000
+!s107 BCDCounter.v|
+!i10b 1
+!s85 0
+vBCDCounter_2digit
+I@Q@c`Y3nignjocLL>_cSW1
+V[AXNDI>e9gD]6O7V5MYB`0
+R3
+w1455173783
+8BCDCounter_2digit.v
+FBCDCounter_2digit.v
+L0 2
+R4
+r1
+31
+R5
+n@b@c@d@counter_2digit
+!s100 [KUOcgSk5^XnCBHzczY7A0
+!s90 -reportprogress|300|BCDCounter_2digit.v|
+!s108 1455176221.752000
+!s107 BCDCounter_2digit.v|
+!i10b 1
+!s85 0
+vDFF
+ITUJfGB8UJ=9DmWPL>fngE0
+VD`VURBWcha7Nf`H=h[:1L3
+R3
+Z6 w1455163559
+Z7 8excess3_structural.v
+Z8 Fexcess3_structural.v
+L0 57
+R4
+r1
+31
+Z9 !s108 1455163631.484000
+Z10 !s107 excess3_structural.v|
+Z11 !s90 -reportprogress|300|excess3_structural.v|
+R5
+n@d@f@f
+!s100 P^UJ:X2Xz?BX;lY9L25O<1
+!i10b 1
+!s85 0
+vdivider
+IXRfOEMEBWmfih]UWCdEWm1
+V=kI9AP`oTkl?2VXIZekkI3
+R3
+w1455175665
+8divider.v
+Fdivider.v
+L0 4
+R4
+r1
+31
+R5
+!s90 -reportprogress|300|divider.v|
+!s100 dm_Fl5WL>CVbT@[CooBgI3
+!s108 1455175670.405000
+!s107 divider.v|
+!i10b 1
+!s85 0
+vexcess3_behavioral
+Ij`dffWE1`bV5VMPZfD>OT3
+V^P><AeT7O4EH]S=JRIW^o3
+R3
+w1455160460
+8excess3_behavioral.v
+Fexcess3_behavioral.v
+L0 2
+R4
+r1
+31
+R5
+!s90 -reportprogress|300|excess3_behavioral.v|
+!i10b 1
+!s100 V?6m;lKIlIH5@k@jX@H`72
+!s85 0
+!s108 1455178128.449000
+!s107 excess3_behavioral.v|
+vexcess3_dataflow
+I3Kd^H3MlCU?]K?7WfgmV72
+VWU9j^k;cBezBAb>Rb2a@X2
+R3
+w1455158921
+8excess3_dataflow.v
+Fexcess3_dataflow.v
+L0 3
+R4
+r1
+31
+R5
+!s90 -reportprogress|300|excess3_dataflow.v|
+!s100 K2B3nX;dg7bLRQCBWB[Zf3
+!s108 1455158945.101000
+!s107 excess3_dataflow.v|
+!i10b 1
+!s85 0
+vexcess3_structural
+I2PfNa4NJUYWg4QTGgM=720
+VF?dE@IRKKeM<9=ohd:bP]1
+R3
+R6
+R7
+R8
+L0 2
+R4
+r1
+31
+R9
+R10
+R11
+R5
+!s100 QkgnzJnFo^aDZMlCH_3d>0
+!i10b 1
+!s85 0
+vhalf_adder
+Id<;aHJ`Wc0J33?MY@>]GC1
+Vm41F[z6R`<=D:fghJIjOR0
+R3
+w1455162854
+R7
+R8
+L0 77
+R4
+r1
+31
+R10
+R11
+R5
+!s108 1455162880.159000
+!s100 l6fG[h2zF:0;a_Xf8kP;H0
+!i10b 1
+!s85 0

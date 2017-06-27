@@ -1,0 +1,15 @@
+.ORIG x3000
+LEA R0, fun
+LDW R1, R0, #0
+LDW R2, R0, #1
+LDW R3, R0, #-1
+LDB R5, R0, #0
+LDB R6, R0, #1
+LDB R7, R0, #-1
+HALT
+
+
+.FILL x0010
+fun .FILL x0123
+.FILL x0231
+.END

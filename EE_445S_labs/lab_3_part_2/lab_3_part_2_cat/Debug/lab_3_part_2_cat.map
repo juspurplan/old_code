@@ -1,0 +1,244 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.14                     
+******************************************************************************
+>> Linked Tue Mar 01 19:53:13 2016
+
+OUTPUT FILE NAME:   <lab_3_part_2_cat.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 11803c20
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECTORS               11800000   00000200  00000200  00000000  RWIX
+  DSPRAM                11800200   0003fe00  00004158  0003bca8  RWIX
+  SHAREDRAM             80000000   00020000  00000000  00020000  RWIX
+  SDRAM                 c0000000   08000000  00003000  07ffd000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+vectors    0    11800000    00000200     
+                  11800000    00000200     vectors_EDMA.obj (vectors)
+
+.far       0    11800200    00002178     UNINITIALIZED
+                  11800200    000020f0     ISRs.obj (.far)
+                  118022f0    0000007c     coeff.obj (.far)
+                  1180236c    0000000c     rts6740.lib : exit.obj (.far)
+
+.text      0    11802380    00001aa0     
+                  11802380    00000dc0     LCDK_Support_DSP.obj (.text)
+                  11803140    00000760     ISRs.obj (.text)
+                  118038a0    000000c0     rts6740.lib : autoinit.obj (.text:__auto_init)
+                  11803960    000000c0                 : divu.obj (.text:__divu)
+                  11803a20    000000c0                 : exit.obj (.text:_exit)
+                  11803ae0    000000a0                 : cpy_tbl.obj (.text:_copy_in)
+                  11803b80    000000a0                 : memcpy64.obj (.text:_memcpy)
+                  11803c20    00000080                 : boot.obj (.text:_c_int00)
+                  11803ca0    00000080     ISRs.obj (.text:retain)
+                  11803d20    00000060     rts6740.lib : cpp_init.obj (.text:___TI_cpp_init)
+                  11803d80    00000040                 : args_main.obj (.text:__args_main)
+                  11803dc0    00000040     main.obj (.text)
+                  11803e00    00000020     rts6740.lib : exit.obj (.text:_abort)
+
+.stack     0    11803e20    00000400     UNINITIALIZED
+                  11803e20    00000008     rts6740.lib : boot.obj (.stack)
+                  11803e28    000003f8     --HOLE--
+
+.cinit     0    11804220    0000011c     
+                  11804220    00000084     coeff.obj (.cinit)
+                  118042a4    00000004     --HOLE-- [fill = 0]
+                  118042a8    0000004c     ISRs.obj (.cinit)
+                  118042f4    00000004     --HOLE-- [fill = 0]
+                  118042f8    0000002c     rts6740.lib : exit.obj (.cinit)
+                  11804324    00000004     --HOLE-- [fill = 0]
+                  11804328    0000000c     LCDK_Support_DSP.obj (.cinit)
+                  11804334    00000004     --HOLE-- [fill = 0]
+                  11804338    00000004     (.pad.cinit) [fill = 0]
+
+.switch    0    1180433c    00000018     
+                  1180433c    00000018     LCDK_Support_DSP.obj (.switch:_SetSampleRate_AIC3106)
+
+.bss       0    11804354    0000000c     UNINITIALIZED
+                  11804354    00000006     ISRs.obj (.bss)
+                  1180435a    00000002     --HOLE--
+                  1180435c    00000004     LCDK_Support_DSP.obj (.bss)
+
+CE0        0    c0000000    00003000     UNINITIALIZED
+                  c0000000    00003000     ISRs.obj (CE0)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+11804354   $bss
+11804354   .bss
+11802380   .text
+11803e00   C$$EXIT
+11802a6c   _AIC3106_write_reg
+118022f0   _B
+118027f4   _CheckForOverrun
+11802388   _DSP_Init
+118023a8   _DSP_Init_EDMA
+11803ca0   _EDMA_ISR
+11803140   _EDMA_Init
+1180258c   _EnableInterrupts
+118025d8   _EnableInterrupts_EDMA
+11802380   _GetSampleFreq
+11802524   _InitDigitalOutputs
+118023c8   _InitLEDs
+11802824   _Init_AIC3106
+1180264c   _Init_I2C
+11802548   _Init_Interrupts
+118025c8   _Init_Interrupts_EDMA
+11802c18   _Init_McASP0
+11802fa8   _Init_UART2
+1180388c   _IsBufferReady
+118030e8   _IsDataReady_UART2
+11803894   _IsOverRun
+1180310c   _IsTxReady_UART2
+1180360c   _ProcessBuffer
+11803088   _Puts_UART2
+118027ac   _ReadCodecData
+1180250c   _ReadSwitches
+118030c8   _Read_UART2
+11802aa8   _Reset_AIC3106
+118026a8   _Reset_I2C
+11802ad0   _SetSampleRate_AIC3106
+118027d0   _WriteCodecData
+11802530   _WriteDigitalOutputs
+11802428   _WriteLEDs
+118026c8   _Write_I2C
+11803060   _Write_UART2
+118035bc   _ZeroBuffers
+11804220   __STACK_END
+00000400   __STACK_SIZE
+00000001   __TI_args_main
+11803d20   ___TI_cpp_init
+11802374   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+11804354   ___bss__
+ffffffff   ___c_args__
+11804220   ___cinit__
+11804360   ___end__
+11803e20   ___etext__
+ffffffff   ___pinit__
+11802380   ___text__
+11803d80   __args_main
+118038a0   __auto_init
+11803960   __c6xabi_divu
+1180236c   __cleanup_ptr
+11803960   __divu
+11802370   __dtors_ptr
+11803e20   __stack
+11803e00   _abort
+c0000000   _buffer
+11804354   _buffer_ready
+11803c20   _c_int00
+11803ae0   _copy_in
+11803a20   _exit
+11803dc0   _main
+11803b80   _memcpy
+11804356   _over_run
+11804358   _ready_index
+11802618   _wait
+ffffffff   binit
+11804220   cinit
+11804360   end
+11803e20   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000001   __TI_args_main
+00000400   __STACK_SIZE
+118022f0   _B
+1180236c   __cleanup_ptr
+11802370   __dtors_ptr
+11802374   ___TI_enable_exit_profile_output
+11802380   .text
+11802380   _GetSampleFreq
+11802380   ___text__
+11802388   _DSP_Init
+118023a8   _DSP_Init_EDMA
+118023c8   _InitLEDs
+11802428   _WriteLEDs
+1180250c   _ReadSwitches
+11802524   _InitDigitalOutputs
+11802530   _WriteDigitalOutputs
+11802548   _Init_Interrupts
+1180258c   _EnableInterrupts
+118025c8   _Init_Interrupts_EDMA
+118025d8   _EnableInterrupts_EDMA
+11802618   _wait
+1180264c   _Init_I2C
+118026a8   _Reset_I2C
+118026c8   _Write_I2C
+118027ac   _ReadCodecData
+118027d0   _WriteCodecData
+118027f4   _CheckForOverrun
+11802824   _Init_AIC3106
+11802a6c   _AIC3106_write_reg
+11802aa8   _Reset_AIC3106
+11802ad0   _SetSampleRate_AIC3106
+11802c18   _Init_McASP0
+11802fa8   _Init_UART2
+11803060   _Write_UART2
+11803088   _Puts_UART2
+118030c8   _Read_UART2
+118030e8   _IsDataReady_UART2
+1180310c   _IsTxReady_UART2
+11803140   _EDMA_Init
+118035bc   _ZeroBuffers
+1180360c   _ProcessBuffer
+1180388c   _IsBufferReady
+11803894   _IsOverRun
+118038a0   __auto_init
+11803960   __c6xabi_divu
+11803960   __divu
+11803a20   _exit
+11803ae0   _copy_in
+11803b80   _memcpy
+11803c20   _c_int00
+11803ca0   _EDMA_ISR
+11803d20   ___TI_cpp_init
+11803d80   __args_main
+11803dc0   _main
+11803e00   C$$EXIT
+11803e00   _abort
+11803e20   ___etext__
+11803e20   __stack
+11803e20   etext
+11804220   __STACK_END
+11804220   ___cinit__
+11804220   cinit
+11804354   $bss
+11804354   .bss
+11804354   ___bss__
+11804354   _buffer_ready
+11804356   _over_run
+11804358   _ready_index
+11804360   ___end__
+11804360   end
+c0000000   _buffer
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[79 symbols]

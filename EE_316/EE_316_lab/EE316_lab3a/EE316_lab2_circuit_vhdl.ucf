@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "A" LOC = J14;
+NET "B" LOC = H13;
+NET "C" LOC = H14;
+NET "D" LOC = G12;
+NET "E" LOC = F12;
+NET "W" LOC = N14;
+NET "X" LOC = L12;
+NET "Y" LOC = P14;
+NET "Z" LOC = K12;

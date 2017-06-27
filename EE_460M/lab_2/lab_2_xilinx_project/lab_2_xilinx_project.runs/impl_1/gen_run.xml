@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-2L" LaunchTime="1455220264">
+  <File Type="PWROPT-DCP" Name="BCD_with_divider_pwropt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-DCP" Name="BCD_with_divider_placed.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DRC" Name="BCD_with_divider_drc_pwropted.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="BCD_with_divider_timing_summary_routed.rpt"/>
+  <File Type="PA-TCL" Name="BCD_with_divider.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DCP" Name="BCD_with_divider_opt.dcp"/>
+  <File Type="OPT-DRC" Name="BCD_with_divider_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="BCD_with_divider_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="BCD_with_divider_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="BCD_with_divider_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="BCD_with_divider_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="BCD_with_divider_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="BCD_with_divider_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="BCD_with_divider_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="BCD_with_divider_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="BCD_with_divider_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="BCD_with_divider_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="BCD_with_divider_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="BCD_with_divider_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="BCD_with_divider_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="BCD_with_divider_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="BCD_with_divider_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="BCD_with_divider_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="BCD_with_divider_route_status.pb"/>
+  <File Type="ROUTE-TIMING-PB" Name="BCD_with_divider_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="BCD_with_divider_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="BCD_with_divider_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="BCD_with_divider_postroute_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="BCD_with_divider.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="BCD_with_divider_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="BCD_with_divider_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="BCD_with_divider_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="BCD_with_divider.bit"/>
+  <File Type="BG-BIN" Name="BCD_with_divider.bin"/>
+  <File Type="BITSTR-MSK" Name="BCD_with_divider.msk"/>
+  <File Type="BITSTR-RBT" Name="BCD_with_divider.rbt"/>
+  <File Type="BITSTR-NKY" Name="BCD_with_divider.nky"/>
+  <File Type="BITSTR-BMM" Name="BCD_with_divider_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="BCD_with_divider.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="BCD_with_divider.sysdef"/>
+  <File Type="BG-BGN" Name="BCD_with_divider.bgn"/>
+  <File Type="BG-DRC" Name="BCD_with_divider.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab_2/divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../divider.v"/>
+        <Attr Name="ImportTime" Val="1455175665"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_2/BCDCounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../BCDCounter.v"/>
+        <Attr Name="ImportTime" Val="1455173940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab_2/BCD_with_divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../BCD_with_divider.v"/>
+        <Attr Name="ImportTime" Val="1455175595"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="BCD_with_divider"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab_2/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1454554191"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
