@@ -1,0 +1,11 @@
+(HELLO)
+@100
+A,M=D
+@1
+D=A
+(LOOP)
+D,A=D+A
+@100
+D=A-D
+@LOOP
+D;JGE
