@@ -40,3 +40,5 @@ The requirements and instructions for the project can be found in "InterpreterA.
 
 ### Our interpreter is also requried to keep track of Local/Global variable names, and Local/Global function names. 
 Within a defined function's scope, there is preference to use local variable/function names first over global names.
+
+### The class required that we structure our code such that both declaration/implementation was in the header files.
